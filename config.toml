@@ -2,3 +2,4 @@ baseURL = 'https://dathan.github.io/blog/'
 languageCode = 'en-us'
 title = 'Generated Blog by Dathan capturing his random thoughts'
 theme = "ananke"
+publishDir = docs
