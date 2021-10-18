@@ -1,5 +1,5 @@
 ---
-title: "Rituals_in_dev_ops"
+title: "Rituals in DevOps for Teams"
 date: 2021-10-18T11:38:59-07:00
 draft: false
 ---
