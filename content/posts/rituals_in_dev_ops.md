@@ -1,5 +1,5 @@
 ---
-title: "Rituals in DevOps for Teams"
+title: "Rituals in DevOps for T eams"
 date: 2021-10-18T11:38:59-07:00
 draft: false
 ---
@@ -11,7 +11,7 @@ The rituals we follow on my team are classified into observations and social com
 
 I have been doing this process for over two years. The teams have steadily increased shared knowledge and built a consistent mechanism of sharing that knowledge of what to do for a specific incident. The other side of this ritual that does not get much attention is the by-products produced by the ritual for later referral. The documentation produced as a result of talking about the past incident is key for discovery about what to do in a future similar incident. This content creation allows a future engineer to search for a problem in the internal system and either find a runbook and or find the breadcrumbs to the past mitigation to produce a possible runbook. 
 
-Thus rituals are required, beneficial, and aligns a team to the common narrow focus of getting these things to stop paging us and as a result, make the system more resilient.
+As I look past in my career, simular rituals built team trust, and asked tough team questions. I believe rituals are required, beneficial, and aligns a team to the common narrow focus of getting these things to stop paging us. As a result, aligns the team, in a trust predicatiable way for the goal of making the system more resilient.
 
 #### Notes
 
