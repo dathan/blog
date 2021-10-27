@@ -65,7 +65,7 @@ Why? – The vehicle was not maintained according to the recommended service sch
 
 Follow the incident response process by focusing on what are we fixing, what is broken, and how with data-did or did not verify our assumptions. We follow an experiment process described below, whilst communicating what step of the experiment you are at with the team.
 
-![Scientific Method](process.png)
+![Scientific Method](/static/img/process.png)
 
 # Resources 
 
