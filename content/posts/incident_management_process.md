@@ -75,7 +75,7 @@ Follow the incident response process by focusing on what are we fixing, what is 
 
 Finally use observability tools to identity symptoms to narrow down on the cause. Data should back expeirment direction and conclusion to narrow down on the problem.
 
-Think of the problem like a bomb exploding. Now when the bomb exploded you look at the debree first and take inventory of the damage. Start expanding the scope of the blast radius start to add more things involved in the blast radius. This is a measured devide and conqure of sorts where as the problem is being defined only that path of definition is looked at before looking at other areas, or "pushing many different buttons" to rush to a fix.
+Think of the problem like a bomb exploding. Now when the bomb exploded you look at the debree first and take inventory of the damage. Start expanding the scope of the blast radius start to add more things involved in the blast radius. This is a measured devide and conqure of sorts where as the problem is being defined incrementally as a path is traveled, when there is enough data, stop or look else where. The goal is to be disaplined, measured and stopping the rush of "pushing many different buttons" to rush to a fix.
 # Resources 
 
 https://en.wikipedia.org/wiki/Five_whys
