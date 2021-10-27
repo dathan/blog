@@ -70,7 +70,7 @@ Note: Please [read](https://www.kitchensoap.com/2012/02/10/each-necessary-but-on
 
 Follow the incident response process by focusing on what are we fixing, what is broken, and how with data-did or did not verify our assumptions. We follow an experiment process described below, whilst communicating what step of the experiment you are at with the team.
 
-![Scientific Method](img/process.png)
+![Scientific Method](/blog/img/process.png)
 
 
 Finally use observability tools to identity symptoms to narrow down on the cause. Data should back expeirment direction and conclusion to narrow down on the problem.
