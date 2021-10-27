@@ -52,6 +52,11 @@ Goto
 * [Golang Eth](https://ethereum.org/en/developers/docs/programming-languages/golang/) list of resources for go engineers
 * [HardHat](https://hardhat.org/) A recommended JS developer framework for building smart contracts
 * [Truffle](https://www.trufflesuite.com/) The oldest framework, that has set a lot of standards and precendent. Many of the projects on github are probably truffle projects
+* [Brownie](https://github.com/eth-brownie/brownie) This is a python framework, depends on Web3.py and is the highest used
+* [Go-Ethereum](https://github.com/ethereum/go-ethereum) Official Golang implementation of the Ethereum protocol. GETH is the main ETH CLI client. Geth is the main entry point into the ETH network exposing endpoints on top HTTP, WEBSOCKETS, or IPC transports.
+* [GETH Tutorial](https://medium.com/coinmonks/creating-and-exploring-a-private-ethereum-blockchain-using-geth-d71afc5cdcf9) This is a tutorial on how to set up GETH
+* [Go Smart Contract Deploy](https://goethereumbook.org/smart-contract-deploy/) This shows how to deploy a smart contract.
+
 
 
 

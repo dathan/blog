@@ -1,7 +1,7 @@
 ---
 title: "WeWork is now a public company"
 date: 2021-10-21T09:35:52-07:00
-draft: false
+draft: true
 ---
 
 
