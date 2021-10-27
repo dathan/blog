@@ -32,7 +32,11 @@ Why? – The alternator is not functioning. (Second why)
 Why? – The alternator belt has broken. (Third why)
 Why? – The alternator belt was well beyond its useful service life and not replaced. (Fourth why)
 Why? – The vehicle was not maintained according to the recommended service schedule. (Fifth why, a root cause)
+
+
 ```
+
+Note: Please [read](https://www.kitchensoap.com/2012/02/10/each-necessary-but-only-jointly-sufficient/) on why the Five Why's is a good start and there is more.
 
 
 1. Validate there is a problem and this problem is a P1 Incident as of the ilk described above.
@@ -48,7 +52,8 @@ Why? – The vehicle was not maintained according to the recommended service sch
 11. Verify recovery
 12. Announce resolved (Yellow Status)
 13. Announce resolved (Green status) when tech-debt is cleaned up after the customer verifies the fix
-
+14. Start Incident Report
+15. Schedule a Post Mortem
 
 
 
@@ -67,6 +72,10 @@ Follow the incident response process by focusing on what are we fixing, what is 
 
 ![Scientific Method](img/process.png)
 
+
+Finally use observability tools to identity symptoms to narrow down on the cause. Data should back expeirment direction and conclusion to narrow down on the problem.
+
+Think of the problem like a bomb exploding. Now when the bomb exploded you look at the debree first and take inventory of the damage. Start expanding the scope of the blast radius start to add more things involved in the blast radius. This is a measured devide and conqure of sorts where as the problem is being defined only that path of definition is looked at before looking at other areas, or "pushing many different buttons" to rush to a fix.
 # Resources 
 
 https://en.wikipedia.org/wiki/Five_whys
