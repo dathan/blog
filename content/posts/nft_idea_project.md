@@ -1,5 +1,5 @@
 ---
-title: "NFT IDEA to Customers with a Product built in"
+title: "NFT IDEA to Customers with a Product built-in"
 date: 2021-10-19T11:58:09-07:00
 draft: true
 ---
@@ -13,11 +13,11 @@ An award given should be provable even if that physical representation of the aw
 
 ## Solution NFT
 
-Having a way to represent ownership to digital content on the web is a very powerful feature. The decentralized nature of the blockchain or what I like to call very slow peer-to-peer databases gives that implicit trust that a smart contract was minted and cannot change, thus can represent ownership.
+Having a way to represent ownership to digital content on the web is a very powerful feature. The decentralized nature of the blockchain or what I like to call very slow peer-to-peer databases gives that implicit trust that a smart contract was minted and cannot be changed, thus can represent ownership.
 
 ## What are NFT
 
-ERC-721, a non fugebal token. ERC-721 has a tokenid and each token is unqiue and each token represents a unique asset. Has on-chain and off chain attributes. on-chain is desired since the attributes are proven by the cryptographic function to pull it on the chain.
+ERC-721, a non fugebal token. ERC-721 has a tokenid and each token is unqiue and each token represents a unique asset. Has on-chain and off-chain attributes. on-chain is desired since the attributes are proven by the cryptographic function to pull it on the chain.
 
 
 ## References
@@ -32,7 +32,7 @@ Goto
 
 1. https://opensea.io/
 2. Create an account by connecting your wallet. There are a few I suggest [walletconnect](https://walletconnect.com/).
-3. Click the hamberger icon and click connect wallet. Click Wallet Connect
+3. Click the hamburger icon and click connect wallet. Click Wallet Connect
 4. Click Trust (I use trust for the iphone)
 5. Complete your profile by valledating your opensea account
 6. opensea wallet walletconnect to iphone wallet: `0xd4f15be249bb9432a3cf870df0b781ee9eefa445`
@@ -60,6 +60,43 @@ Goto
 
 
 
+### Environmental Setup for Development
+
+We are going to use brownie and Solidity to code our nft. Additionally we are going to use the contracts by openzeplin
+
+
+```
+$ mkdir nft-idea && cd nft-idea
+$ brownie init 
+```
+
+Create a .env file and add infuria token and wallet token to your environment
+
+```
+
+export WEB3_INFURA_PROJECT_ID=
+export PRIVATE_KEY=
+
+```
+
+
+Download IPFS
+```
+curl -O https://dist.ipfs.io/go-ipfs/v0.10.0/go-ipfs_v0.10.0_darwin-amd64.tar.gz
+```
+
+Run IPFS
+
+```
+ipfs deamon 
+```
+
+
+At this point we have the ability to write Solidity and run brownie to compile it and brownie can run a soon to be created deploy script for the contract
+
+
+
+### Writing the Contract
 
 
 
