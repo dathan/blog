@@ -74,8 +74,9 @@ Create a .env file and add infuria token and wallet token to your environment
 
 ```
 
-export WEB3_INFURA_PROJECT_ID=
-export PRIVATE_KEY=
+export WEB3_INFURA_PROJECT_ID= # allows rest api to eth network
+export PRIVATE_KEY= #metamask private key so we can interact with the wallet
+export ETHERSCAN_TOKEN= #support for verifing things show up on etherscan
 
 ```
 
@@ -92,11 +93,61 @@ ipfs deamon
 ```
 
 
-At this point we have the ability to write Solidity and run brownie to compile it and brownie can run a soon to be created deploy script for the contract
+At this point we have the ability to write Solidity and run brownie to compile it and brownie can run a soon to be created deploy script for the contract.
 
+THe following directory structure is made:
+```
+tests  # where we will put our integration and unit tests
+scripts # location of the python code that browine will execute to deploy, mint, update metadata
+reports # 
+interfaces # interfaces for existing deployed contracts which are interacted with
+contracts # this is where our Solidity code is located 
+build #output of solc
+```
 
 
 ### Writing the Contract
+
+
+We are creating a nft factory to push out a certain token type. Within that contract we can then mint nfts. What we will do is create our own factory contract and mint the nft with that contract.
+
+This is accomplished by a few steps
+* create the brownie project defined above
+* in contracts create a contract
+* in the workspace directory add env settings and a brownie config to rewrite paths to github repos from python
+* brownie compile
+
+
+```
+ brownie compile
+Brownie v1.17.0 - Python development framework for Ethereum
+
+Compiling contracts...
+  Solc version: 0.6.6
+  Optimizer: Enabled  Runs: 200
+  EVM Version: Istanbul
+Generating build data...
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/ERC165
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/IERC165
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/SafeMath
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/ERC721
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/IERC721
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/IERC721Enumerable
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/IERC721Metadata
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/IERC721Receiver
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/Address
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/Context
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/EnumerableMap
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/EnumerableSet
+ - OpenZeppelin/openzeppelin-contracts@3.4.0/Strings
+ - CompanyAward
+
+Project has been compiled. Build artifacts saved at /Users/dathan/workspace/award-nft/build/contracts
+
+~/workspace/award-nft (main) [minikube|]
+$ 
+```
+
 
 
 
