@@ -164,7 +164,7 @@ Gas is very interesting, the ability to esitimate is really variable since its b
 * [another one](https://ethereum.stackexchange.com/questions/68662/how-to-determine-transaction-fees-using-web3-py)
 * [web3.py](https://web3py.readthedocs.io/en/stable/web3.eth.html#web3.eth.Eth.getTransactionReceipt)
 * web3.py read's the last block to get the gas estimate in some instances
-* 
+ 
 
 
 ### side goal
