@@ -8,7 +8,7 @@ draft: true
 
 ## Problem
 
-An award given should be provable even if that physical representation of the award was lost.
+An award given should be proveable even if that physical representation of the award was lost, yet if the physical object is lost did the award every really exist.
 
 
 ## Solution NFT
@@ -142,7 +142,7 @@ Generating build data...
  - OpenZeppelin/openzeppelin-contracts@3.4.0/Strings
  - CompanyAward
 
-Project has been compiled. Build artifacts saved at /Users/dathan/workspace/award-nft/build/contracts
+The project has been compiled. Build artifacts saved at /Users/dathan/workspace/award-nft/build/contracts
 
 ~/workspace/award-nft (main) [minikube|]
 $ 
@@ -150,4 +150,32 @@ $
 
 
 
+
+### Tests
+
+Unit tests are supported by brownie, as well as integration tests. Using the pytest package, define the test in tests/unit
+
+
+### Gas
+
+Gas is very interesting, the ability to esitimate is really variable since its based on the compute power of the code being executed.
+
+* [What the net has to say](https://ethereum.stackexchange.com/questions/19665/how-to-calculate-transaction-fee)
+* [another one](https://ethereum.stackexchange.com/questions/68662/how-to-determine-transaction-fees-using-web3-py)
+* [web3.py](https://web3py.readthedocs.io/en/stable/web3.eth.html#web3.eth.Eth.getTransactionReceipt)
+* web3.py read's the last block to get the gas estimate in some instances
+* 
+
+
+### side goal
+<details>
+<summary></summary>
+<p>
+```
+* mac book pro is [$3,700.00](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-space-gray-10-core-cpu-16-core-gpu-1tb#) 
+* 2 mac displays [$14000.00](https://www.apple.com/shop/buy-mac/pro-display-xdr/nano-glass)
+* anything my wife wants [$7000000+](https://foreveraward.com)
+```
+</p>
+</details>
 
