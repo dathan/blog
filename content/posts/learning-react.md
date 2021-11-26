@@ -35,7 +35,7 @@ import A, { myA, Something } from './A'
 
 State has primarly was used with classes, but now with State Hooks since React 16.8 - it let's the developer use state and other react features without a class.
 
-`Basing log off of [here](https://reactjs.org/docs/state-and-lifecycle.html)`
+Basing log off of [here](https://reactjs.org/docs/state-and-lifecycle.html)
 
 State also has lifecycles, and this is used in classes. There are some methods ment to be overridden for mounting and unmounting a component.
 These are known as lifecycle methods
