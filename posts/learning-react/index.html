@@ -14,7 +14,7 @@ import { A } from './A' This is a named import called A and only works if there 
 </code></pre><p><em>This is a named import called A and only works if there is a named export called A</em></p><pre><code>export const A = 42
 </code></pre><p>A module can only have one default export, but as many named exports as you&rsquo;d like (zero, one, two, or many). You can import them all together:</p><pre><code>// B.js
 import A, { myA, Something } from './A'
-</code></pre><h3 id=state>State</h3><p>State has primarly was used with classes, but now with State Hooks since React 16.8 - it let&rsquo;s the developer use state and other react features without a class.</p><p><code>Basing log off of [here](https://reactjs.org/docs/state-and-lifecycle.html)</code></p><p>State also has lifecycles, and this is used in classes. There are some methods ment to be overridden for mounting and unmounting a component.
+</code></pre><h3 id=state>State</h3><p>State has primarly was used with classes, but now with State Hooks since React 16.8 - it let&rsquo;s the developer use state and other react features without a class.</p><p>Basing log off of <a href=https://reactjs.org/docs/state-and-lifecycle.html>here</a></p><p>State also has lifecycles, and this is used in classes. There are some methods ment to be overridden for mounting and unmounting a component.
 These are known as lifecycle methods</p><pre><code>componentDidMount() {
 }
 
