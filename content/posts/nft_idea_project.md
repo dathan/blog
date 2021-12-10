@@ -40,7 +40,8 @@ Goto
 8. add image to a collection
 9. upload your image
 10. add meta data
-11. Get a [contract](https://etherscan.io/address/0x495f947276749ce646f68ac8c248420045cb7b5e) url
+11. set tokenURI to your metadata.json file, the image attibute is what is used to provide a [photo for the nft](https://gateway.pinata.cloud/ipfs/Qmb8i9HPK5Jafx6iX7SopAz2Pi1oX75o6tMSWTJGh1mjcc)
+12. Get a [contract](https://etherscan.io/address/0x495f947276749ce646f68ac8c248420045cb7b5e) url
 
 
 
@@ -146,6 +147,10 @@ The project has been compiled. Build artifacts saved at /Users/dathan/workspace/
 
 ~/workspace/award-nft (main) [minikube|]
 $ 
+
+
+Upload a metadata json file and set the uri to that for the generated token once deployed
+
 ```
 
 
