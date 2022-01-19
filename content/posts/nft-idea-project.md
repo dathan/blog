@@ -169,18 +169,30 @@ Gas is very interesting, the ability to esitimate is really variable since its b
 * [another one](https://ethereum.stackexchange.com/questions/68662/how-to-determine-transaction-fees-using-web3-py)
 * [web3.py](https://web3py.readthedocs.io/en/stable/web3.eth.html#web3.eth.Eth.getTransactionReceipt)
 * web3.py read's the last block to get the gas estimate in some instances
+
+
+### Finally deploy
+
+```
+ brownie run scripts/foreveraward/deploy_contract.py --network=mainnet
+Brownie v1.17.0 - Python development framework for Ethereum
+
+AwardNftProject is the active project.
+
+Running 'scripts/foreveraward/deploy_contract.py::main'...
+On Network mainnet deploying contract for account: 0x64835C348e974B38d573145374EF72FdA51A72b3 with a balance of 340272419488868684 estimate gas of 53000 used gas 0 -> for Token ForeverAward <brownie.network.contract.ContractContainer object at 0x10fae6ac0>
+Transaction sent: 0xabd1ea0bed6e0548476012e7046bec47a6c780efe7351f6aa3472a8805ed2edb
+  Gas price: 91.204135375 gwei   Gas limit: 2630912   Nonce: 4
+  ForeverAward.constructor confirmed   Block: 14033417   Gas used: 2391739 (90.91%)
+  ForeverAward deployed at: 0x42c9749AEf7e77D6930A82f148e457D8C991A2e8
+
+Waiting for https://api.etherscan.io/api to process contract...
+Verification submitted successfully. Waiting for result...
+Verification pending...
+Verification complete. Result: Pass - Verified
+
+```
+
  
 
-
-### side goal
-<details>
-<summary></summary>
-<p>
-```
-* mac book pro is [$3,700.00](https://www.apple.com/shop/buy-mac/macbook-pro/14-inch-space-gray-10-core-cpu-16-core-gpu-1tb#) 
-* 2 mac displays [$14000.00](https://www.apple.com/shop/buy-mac/pro-display-xdr/nano-glass)
-* anything my wife wants [$7000000+](https://foreveraward.com)
-```
-</p>
-</details>
 
