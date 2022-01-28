@@ -36,14 +36,23 @@ That's the theme that I'm planning for and maybe that could be the formation of 
 
 * Before review going after canidates, BOSS found a candidate. My move on things is not fast enough so I need to jump on contacting candidates. Reformat the JD. Set up a pre-brief.
 * MetaVerse Research is done, about to buy
-* Rally troops for conferences they would be interestested in
-  * Go in or recruite from
+* Rally troops for conferences they would be interested in
+  * Go in or recruit from
 * Follow up with team on a few things that are not falling into place:
   * SIZE of management of contracts
-  * Deprexation of logging status
+  * Deprecation of logging status
 
 * Follow up on getting ownership for salesforce SAP engulf.
 * Follow up on why the EKS upgrade failed
 
 
+### t = 2022-01-28
+
+* FOSSID loose strings
+  * need to organize infosec for review
+* Need to fix the organization of the QA DOCUMENT
+  * Career path
+  * what does existing members want to do
+  * what is the scope of the relationship, how does the EM coordinate?
+* site has a risk assessment and some suggestions from SRE to get things done
 
