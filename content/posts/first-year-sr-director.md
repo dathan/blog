@@ -56,3 +56,42 @@ That's the theme that I'm planning for and maybe that could be the formation of 
   * what is the scope of the relationship, how does the EM coordinate?
 * site has a risk assessment and some suggestions from SRE to get things done
 
+### t = 2022-01-30
+
+* Worked the previous day on Sunday to address organizational requirements for QA
+* Working on the graphics today to illustrate the purpose and get past the org chart
+* Idea is to have a pool of Contract Workers
+  * A manager for each technology scope would coordinate this resource
+  * Publish Test Plans
+  * Record Data in a common format
+  * Be An Advocate for product support
+
+
+
+### t = 2022-02-04 
+
+* Worked on Org map - Ready for VP review
+  * all relationships covered
+
+* Context Switch to Temporal production install
+  * Need to guide the mvp
+  * need to get a schedule
+  * need to communicate to scott
+
+* Foreveraward mint was on hold, need to follow up, missed a window
+  * Follow up today
+
+### t = 2022-02-07
+
+* People want sandbox
+  * added a manager to the effort to see the roadmap to completion for them
+  * goal here is to give constant feedback and get some engineering time to work on this cruicial product.
+
+
+### t = 2022-02-08
+
+* FOSSID history and purpose convey, now we need to figure out what to do next
+  * trying to scope what we have delivered  
+* 
+
+
