@@ -94,4 +94,70 @@ That's the theme that I'm planning for and maybe that could be the formation of 
   * trying to scope what we have delivered  
 * 
 
+### t = 2022-02-16
+* FOSSID is still an issue, will get meetings together to close this out
+* SOX needs to document some procedures.
+* the tech initative was talked about for the company, now working with legal to push this through
+* TOP LEVEL OKR
+
+
+
+### t = 2022-02-25
+
+* FOSSID is done, all fields are set.
+* SOX is in full swing, top level designs are done.
+* Gave a presentation on NFTs, made sure that people saw the details, got some feedback
+* An employee gave up a VISA to work from their country.
+* Got them a contract to stay in their home country by piggy backing off of existing contract relationsships. The employee will have to resign, then will be rehired by the company local to that country.
+* Interesting workaround work status issues.
+
+### t = 2022-02-28
+
+* Communicated to PEDD Sox needs through PEDD LEADERSHIP meeting
+* Had a meeting with my manager that we need to ocus on sox and here is the list of manual processes to conform
+* TODO: Add Q1/Q2 plan into monday.
+* TODO: CONVEY INFO into managers what we need to get done, via SOX.
+
+
+### t = 2022-03-01
+* Meetings
+* SOX Documents submitted getting feedback weds
+* ORG is starting to question a parting of X
+  * Narritive is starting to be lost due to the mystery as to why.
+
+
+
+### t = 2022-03-02
+
+* Review of SOX documents
+* Offboarding process
+
+
+### t = 2022-03-18
+
+* A big pause in updates, as the SOX process really consumed everything
+* As I reflect on this problem I need to state and record the problem
+  * IA hired a firm to shore up the processes of 75+ systems that translates to 1000s of individual combinations of services that must fit a criteia
+  * If money flows through the system (fianancial data) or is part of the financial transaction, it provides crucial data - it qualifies for the SOX audit
+  * Access
+  * Monitoring
+  * Backups
+  * Deprovisioning
+  * Change Control
+  * are all in scope.
+  * We only had 4 weeks to get 75+ systems done
+  * We have to design a control without knowing the system involved and document existing controls, without knowing what the system is or who the owners are.
+  * We have to understand what the spirit of SOX is asking for and design on the fly for a discovered system
+  * We have to truely qualify the problem to verifiy if financial data is in scope
+  * Some vendors do not indicate they backup their data and we will need to somehow backup their data
+  * Communication has been lack luster as team members do not understand the scope of the problem
+* We are now on track to complete by 3/31
+
+### t = 
+
+
+
+
+
+
 
