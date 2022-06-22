@@ -5,11 +5,11 @@ draft: false
 ---
 
 
-I am attempting to build a dApp. The problem is I do not know modern javascript, nor solidity. I am learning react as I build the product to ensure that I can hit my overall goal for building foreveraward.com
+I am attempting to build a dApp. The problem is I do not know modern javascript, nor solidity. I am learning to react as I build the product to ensure that I can hit my overall goal of building foreveraward.com
 
 ### Import curly braces
 
-This question is asked on stackoverflow with a [great answer](https://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import)
+This question is asked on StackOverflow with a [great answer](https://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import)
 
 Specifically, if I have a statement with the following:
 
@@ -32,12 +32,11 @@ import A, { myA, Something } from './A'
 
 
 ### State
-
-State has primarly was used with classes, but now with State Hooks since React 16.8 - it let's the developer use state and other react features without a class.
+State has primarily been used with classes, but now with State Hooks since React 16.8 - it lets the developer use state and other react features without a class.
 
 Basing log off of [here](https://reactjs.org/docs/state-and-lifecycle.html)
 
-State also has lifecycles, and this is used in classes. There are some methods ment to be overridden for mounting and unmounting a component.
+State also has lifecycles, and this is used in classes. There are some methods meant to be overridden for mounting and unmounting a component.
 These are known as lifecycle methods
 ```
 componentDidMount() {
@@ -58,11 +57,11 @@ setState() enqueues changes to the component state and tells React that this com
 
 ### Arrow functions 
 
-* In short, with arrow functions there are No binding of `this`
+* In short, with arrow functions, there are No binding of `this`
 * the `this` keyword *always* represents the object that defined the arrow function
 
 
-in regular methods the `this` keyword could represent the calling method, like the button in a form, this inside the method could represent that, while in an arrow function `this` represents the object that create the arrow function.
+in regular methods the `this` keyword could represent the calling method, like the button in a form, this inside the method could represent that, while in an arrow function `this` represents the object that creates the arrow function.
 
 ### Promise 
 

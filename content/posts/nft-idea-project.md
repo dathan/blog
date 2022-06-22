@@ -1,7 +1,7 @@
 ---
 title: "NFT IDEA to Customers with a Product built-in"
 date: 2021-10-19T11:58:09-07:00
-draft: true
+draft: false
 ---
 
 

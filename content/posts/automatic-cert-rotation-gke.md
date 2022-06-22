@@ -7,7 +7,7 @@ draft: false
 
 # Why?
 
-My config setup is the following, a freeish version of GKE autopilot, and a load balancer is my ingress. I want the load balancer to terminate TLS.
+My config setup is the following, a free-ish version of GKE autopilot, and a load balancer is my ingress. I want the load balancer to terminate TLS.
 
 # How
 

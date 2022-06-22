@@ -4,7 +4,7 @@ date: 2021-12-27T12:33:06-08:00
 draft: false
 ---
 
-I am going to launch foreveraward.com on kubernetes because why not? I need something to manage the foreveraward container and I am good with kubernetes.
+I am going to launch foreveraward.com on Kubernetes because why not? I need something to manage the foreveraward container and I am good with Kubernetes.
 
 The following checklist is going to be needed.
 
@@ -17,7 +17,7 @@ The following checklist is going to be needed.
 
 ### Creating a cluster
 
-Using gcloud the command line tool for Google cloud, let's create a cluster with redundancy in us-west-1
+Using gcloud the command-line tool for Google cloud, let's create a cluster with redundancy in us-west-1
 
 ```
 gcloud container clusters create-auto foreveraward     --region us-west1     --project=my-platform-11111
