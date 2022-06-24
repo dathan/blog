@@ -11,3 +11,10 @@ For instance, when working with Metamask and resizing the look and feel from chr
 
 I am changing my metamask flow to be a switch, to switch between wallet-connect, wallet-link and metamask. This will allow me to open a wallet on a mobile device which in most cases is a native application. This expansion will enable mobile to use the application and mint an award for my needs.
 
+
+Now that I have a problem, let's go with some stuff in my work history on how I would solve the issue that I need to test with my device browser and launch an experience on my device when the webserver runs on my laptop.
+
+The solution that I would first try is Charles Proxy. Here is the setup:
+
+- https://www.charlesproxy.com/documentation/faqs/using-charles-from-an-iphone/
+

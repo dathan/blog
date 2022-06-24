@@ -72,3 +72,7 @@ kube-system   pdcsi-node-8np2k                                         2/2     R
 kube-system   pdcsi-node-k4zqw                                         2/2     Running   0          34m
 ```
 
+
+## Details
+
+More details can be found at GCP's documentation of [GKE Autopilot](https://cloud.google.com/kubernetes-engine/docs/how-to/creating-an-autopilot-cluster)
