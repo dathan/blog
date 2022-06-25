@@ -24,3 +24,9 @@ then
 kubectl annotate ingress [your-ingress-name] 
 networking.gke.io/managed-certificates=mydomain-certificate
 ```
+
+# UPDATE GKE autopilot changes
+
+As of May 2021 GKE removed 3rd party admission webhooks, now you will need to use 
+https://cloud.google.com/kubernetes-engine/docs/how-to/managed-certs
+
