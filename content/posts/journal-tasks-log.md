@@ -12,8 +12,8 @@ My quest is to become better continuously as a human, parent, husband, man, engi
 
 ## Task Log 2022-10-21
 
-Download all the transcriptions
-Process the transcriptions
-generate CSV of id, filename, bullet list -> word cloud
-Create a Coda document of table results.
-lookup if there is a format generator that allows at least a copy-paste.
+* Download all the transcriptions
+* Process the transcriptions
+* generate CSV of id, filename, bullet list -> word cloud
+* Create a Coda document of table results.
+* lookup if there is a format generator that allows at least a copy-paste.
