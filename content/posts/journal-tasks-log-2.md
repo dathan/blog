@@ -15,8 +15,8 @@ Create an API endpoint using an unfriendly provider.
 # Tasks
 
 1. Use a headless browser to log in with google oAuth ✅
-1. Pass the Text to summerize to application
-1. Grab response from unfriendly provider and structure the response into what we need for return.
+1. Pass the Text to summerize to application ✅
+1. Grab response from unfriendly provider and structure the response into what we need for return. ✅
 1. Create an API interface to enable this.
 
 
@@ -31,3 +31,8 @@ Create an API endpoint using an unfriendly provider.
 
 ## Final Steps
 * Create a NEST API interface for this application logic
+
+
+## Some notes
+
+* With this method of focus in 1.5 hours I've finished 90% of my tasks here. I started at 1:03:32 pm and now it is 2:27 pm
