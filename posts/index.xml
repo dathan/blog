@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Engineering Thoughts</title>
+    <link>https://dathan.github.io/blog/posts/</link>
+    <description>Recent content in Posts on Engineering Thoughts</description>
+    <image>
+      <url>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 21 Nov 2022 10:06:01 -0400</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Openai Fine Tuning Notes</title>
+      <link>https://dathan.github.io/blog/posts/openai-fine-tuning-notes/</link>
+      <pubDate>Mon, 21 Nov 2022 10:06:01 -0400</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/openai-fine-tuning-notes/</guid>
+      <description>OpenAI fine tuning with a notebook in VSCode AI is the future. Co-pilot is the future. Building a finetuned layer for GPT-X will enable products to produce results faster, with less upfront effort for a fraction of the cost.
+Setting up a training set Let&amp;rsquo;s assume for this post, it is based on some structured data. That structured data has been tagged by a human, and there is a lot of it.</description>
+    </item>
+    
+    <item>
+      <title>Journal Tasks Log 3</title>
+      <link>https://dathan.github.io/blog/posts/journal-tasks-log-3/</link>
+      <pubDate>Fri, 11 Nov 2022 10:11:12 -0400</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-3/</guid>
+      <description>Scope Learn how to fine tune a model
+Tasks  Go through an openai tutorial Take companies data and train a model Run through test cases Learn how to enable or disable finetuning to show improvements Learn how to fine tune a model Publish details via a post  </description>
+    </item>
+    
+    <item>
+      <title>Notes About Gke Ingress Service Timeouts</title>
+      <link>https://dathan.github.io/blog/posts/notes-about-gke-ingress-service-timeouts/</link>
+      <pubDate>Wed, 02 Nov 2022 10:07:11 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/notes-about-gke-ingress-service-timeouts/</guid>
+      <description>Problem GKE for all backend services has a default timeout of 30 seconds for a response from the backend or the service. If the request takes more than 30 seconds a 502 Bad Gateway occurs and the message
+Error: Server Error The server encountered a temporary error and could not complete your request. Please try again in 30 seconds.
+Context The problem is summarized as timeouts that need to be configured for the load balancer, but how do you do that?</description>
+    </item>
+    
+    <item>
+      <title>Journal Tasks Log 2</title>
+      <link>https://dathan.github.io/blog/posts/journal-tasks-log-2/</link>
+      <pubDate>Thu, 27 Oct 2022 13:03:32 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-2/</guid>
+      <description>Scope Create an API endpoint using an unfriendly provider.
+Tasks  Use a headless browser to log in with google oAuth ✅ Pass the Text to summerize to application ✅ Grab response from unfriendly provider and structure the response into what we need for return. ✅ Create an API interface to enable this.  First Steps  Lets try to get the existing app to push text Then change the existing app to take text as an input Make sure to grab the response.</description>
+    </item>
+    
+    <item>
+      <title>Journal Tasks Log 1</title>
+      <link>https://dathan.github.io/blog/posts/journal-tasks-log-1/</link>
+      <pubDate>Wed, 26 Oct 2022 13:38:40 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-1/</guid>
+      <description>Focus I am trying to build an interface to a tool, that uses google auth, takes some text and summerizes the content to a few bullet points. Then from these bullet points, build a social post.
+Grief Today I recieved the official news that my dad has stage 4-5 prostate cancer, thyroid cancer, and most likely bone cancer from the scan. I write this for self-releaf. To remind myself, he is on the other side of the United States, in Maryland.</description>
+    </item>
+    
+    <item>
+      <title>Journal Tasks Log</title>
+      <link>https://dathan.github.io/blog/posts/journal-tasks-log/</link>
+      <pubDate>Fri, 21 Oct 2022 08:01:39 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log/</guid>
+      <description>Why My quest is to become better continuously as a human, parent, husband, man, engineer, and person. Better does not mean perfect but know that there is growth and that you never truly stop learning. The current me is good enough, I just want to do things better instead of thinking I am doing them better and that requires tracking and measurement. This is my log of things needed to organize my thoughts and be more self-disciplined.</description>
+    </item>
+    
+    <item>
+      <title>Gcp Cloudsql Postgresql</title>
+      <link>https://dathan.github.io/blog/posts/gcp-cloudsql-postgresql/</link>
+      <pubDate>Wed, 12 Oct 2022 14:52:53 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/gcp-cloudsql-postgresql/</guid>
+      <description>Google GCP CloudSQL PostgreSQL Administration I like to configure most of my infrastructure in Hashicorp terraform. The terraform was not developer friendly in my experience because it had a lot of prerequsites on defining the server config, instead of picking a class that just seems right. Building custom things, allows for varience. Thus I built and am administring the CloudSQL artifacts through the desktop cloudsql interface. So far so good.</description>
+    </item>
+    
+    <item>
+      <title>Understanding Jsonb Postgres</title>
+      <link>https://dathan.github.io/blog/posts/understanding-jsonb-postgres/</link>
+      <pubDate>Tue, 21 Jun 2022 18:17:27 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/understanding-jsonb-postgres/</guid>
+      <description>I am running across how to debug data in PostgreSQL, a platform I am not familiar with. Specifically using JSONB_SET. JSONB_SET documentation is the following
+jsonb_set ( target jsonb, path text[], new_value jsonb [, create_if_missing boolean ] ) → jsonb
+ Returns target with the item designated by path replaced by new_value, or with new_value added if create_if_missing is true (which is the default) and the item designated by path does not exist.</description>
+    </item>
+    
+    <item>
+      <title>Solidity Payable Ownership Contracts</title>
+      <link>https://dathan.github.io/blog/posts/solidity-payable-ownership-contracts/</link>
+      <pubDate>Mon, 17 Jan 2022 09:21:56 -0800</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/solidity-payable-ownership-contracts/</guid>
+      <description>Building foreverawards.com, I have built a basic minter and it works well enough to move to the next level, charging for the service to mint an award that the wallerholder sends to their teammate.
+Contracts When ever talking about charging, transfering, or components of, we are talking about Contracts, which is on v0.8 at the moment of writing this post in the soliditylang documentation site.
+Visibility and Getters external, can be used in transactions from other contracts.</description>
+    </item>
+    
+    <item>
+      <title>Automatic Cert Rotation for Gke</title>
+      <link>https://dathan.github.io/blog/posts/automatic-cert-rotation-gke/</link>
+      <pubDate>Wed, 29 Dec 2021 09:17:19 -0800</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/automatic-cert-rotation-gke/</guid>
+      <description>Why? My config setup is the following, a free-ish version of GKE autopilot, and a load balancer is my ingress. I want the load balancer to terminate TLS.
+How Doing some web surfing I found this blog post and it&amp;rsquo;s literally
+git clone https://github.com/GoogleCloudPlatform/gke-managed-certs cd gke-managed-certs kubectl apply -f managedcertificates-crd.yaml kubectl apply -f managed-certificates-controller.yaml then kubectl annotate ingress [your-ingress-name] networking.gke.io/managed-certificates=mydomain-certificate UPDATE GKE autopilot changes As of May 2021 GKE removed 3rd party admission webhooks, now you will need to use https://cloud.</description>
+    </item>
+    
+    <item>
+      <title>Launching Gke Autopilot</title>
+      <link>https://dathan.github.io/blog/posts/launching-gke-autopilot/</link>
+      <pubDate>Mon, 27 Dec 2021 12:33:06 -0800</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/launching-gke-autopilot/</guid>
+      <description>I am going to launch foreveraward.com on Kubernetes because why not? I need something to manage the foreveraward container and I am good with Kubernetes.
+The following checklist is going to be needed.
+ Cluster GKE (1st time building) Helm3 compatible Ingress controller to support the ingress to the react app  Launching GKE cluster Creating a cluster Using gcloud the command-line tool for Google cloud, let&amp;rsquo;s create a cluster with redundancy in us-west-1</description>
+    </item>
+    
+    <item>
+      <title>Learning React</title>
+      <link>https://dathan.github.io/blog/posts/learning-react/</link>
+      <pubDate>Fri, 26 Nov 2021 14:07:37 -0400</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/learning-react/</guid>
+      <description>I am attempting to build a dApp. The problem is I do not know modern javascript, nor solidity. I am learning to react as I build the product to ensure that I can hit my overall goal of building foreveraward.com
+Import curly braces This question is asked on StackOverflow with a great answer
+Specifically, if I have a statement with the following:
+import { A } from &#39;./A&#39; This is a named import called A and only works if there is a named export called A</description>
+    </item>
+    
+    <item>
+      <title>Incident Management Process</title>
+      <link>https://dathan.github.io/blog/posts/incident_management_process/</link>
+      <pubDate>Tue, 26 Oct 2021 18:07:05 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/incident_management_process/</guid>
+      <description>Goal Define a runbook of sorts of how to run a common incident response process to ensure that we are working on the right thing, keeping all stakeholders in the loop, assigning focus roles, and getting to the root cause of the incident or at least mitigating the problem.
+What is a P1 incident An incident is when there is a customer visible outage that interrupts the behavior or functionality of the platform.</description>
+    </item>
+    
+    <item>
+      <title>NFT IDEA to Customers with a Product built-in</title>
+      <link>https://dathan.github.io/blog/posts/nft-idea-project/</link>
+      <pubDate>Tue, 19 Oct 2021 11:58:09 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/nft-idea-project/</guid>
+      <description>Problem An award given should be proveable even if that physical representation of the award was lost, yet if the physical object is lost did the award every really exist.
+Solution NFT Having a way to represent ownership to digital content on the web is a very powerful feature. The decentralized nature of the blockchain or what I like to call very slow peer-to-peer databases gives that implicit trust that a smart contract was minted and cannot be changed, thus can represent ownership.</description>
+    </item>
+    
+    <item>
+      <title>Rituals in DevOps for Teams</title>
+      <link>https://dathan.github.io/blog/posts/rituals_in_dev_ops/</link>
+      <pubDate>Mon, 18 Oct 2021 11:38:59 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/rituals_in_dev_ops/</guid>
+      <description>Every Monday, leadership pass downs happen, then we have a standup, then we talk about the pages of the past week. To aid in this ritual, we have an automated Confluent Page, generated from a cronjob that documents all the PagerDuty&amp;rsquo;s pages. The program reads data over PagerDuty&amp;rsquo;s API and writes to Confluence API running as a cronjob in Kubernetes.
+These actions described since performed at a regular cadence is a ritual.</description>
+    </item>
+    
+    <item>
+      <title>Tailscale Kubernetes</title>
+      <link>https://dathan.github.io/blog/posts/tailscale-kubernetes/</link>
+      <pubDate>Wed, 13 Oct 2021 17:33:37 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/tailscale-kubernetes/</guid>
+      <description>Last year I wrote a quick docker image and helm chart to install tailscale into your Kubernetes cluster. My particular use case was reaching devices between multiple colliding networks from the cloud to a physical location someplace around the world. Tailscale is perfect for this use-case, and putting together that project was fun and informative.
+Today I read this post by Maisem Ali and Maya Kaczorowski. A fantastic combination of features and abilities that make reaching services in a Kubernetes cluster easy.</description>
+    </item>
+    
+    <item>
+      <title>Some Thoughts on Github Hugo</title>
+      <link>https://dathan.github.io/blog/posts/some-thoughts-on-github-hugo/</link>
+      <pubDate>Tue, 12 Oct 2021 18:11:46 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/some-thoughts-on-github-hugo/</guid>
+      <description>GitHub pages is new for me and I was not aware that the contents of GitHub pages site can be based on branches and path combos. Using the GitHub action and reading the documentation, the action to build is on main. Main is the default branch. The action also executes hugo and publishes the hugo generated site to the root of the gh-pages branch. As a result, a silent step that was needed to automated this blog post.</description>
+    </item>
+    
+    <item>
+      <title>I want to write an informative log ...</title>
+      <link>https://dathan.github.io/blog/posts/my-first-post/</link>
+      <pubDate>Tue, 12 Oct 2021 16:48:51 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/my-first-post/</guid>
+      <description>In the past, I ran a blog at mysqldba.blogspot.com, but I started to move in different directions away from just the database layer but focused on truely the entire stack. I am doing much more than MySQL, but I still keep up to date and use it in my personal projects. Since I moved into the entire stack, I basically gave up my focus and to an extent my expertise in mySQL.</description>
+    </item>
+    
+  </channel>
+</rss>

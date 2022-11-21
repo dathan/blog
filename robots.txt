@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://dathan.github.io/blog/sitemap.xml
