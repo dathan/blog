@@ -59,13 +59,13 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true
+    title: Dathan Vanve Pattishall
+    subtitle: "Engineer Leader"
+    imageUrl: "https://lh3.googleusercontent.com/a/ALm5wu13WeI3AghVy8Q3lO25aeWnPLm4bmx3Kdj2pOIa=s576-p-rw-no"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: "Dathan Pattishall"
     buttons:
       - name: Posts
         url: posts
@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my blog. Work logs, K8s, Databases, Data Science, Software Engineering, PostGres and Networking topics!
 
   socialIcons:
     - name: twitter
