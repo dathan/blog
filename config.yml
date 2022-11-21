@@ -59,8 +59,8 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true
-    title: Dathan Vanve Pattishall
+    enabled: false
+    title: Dathan Vance Pattishall
     subtitle: "Engineer Leader"
     imageUrl: "https://lh3.googleusercontent.com/a/ALm5wu13WeI3AghVy8Q3lO25aeWnPLm4bmx3Kdj2pOIa=s576-p-rw-no"
     imageWidth: 120
