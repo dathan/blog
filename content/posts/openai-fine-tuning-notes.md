@@ -91,6 +91,14 @@ What this means is that the train or valid file does not have enough data for ea
 * https://beta.openai.com/tokenizer?view=bpe to see the token overlap
 
 
+#### Recommendations
+```
+# cat tags_completion.jsonl |jq .completion |sort -u |awk '{ print $2}'|
+```
+
+* This command allows you to view the classes and the 1st token - this helps determine if your tokens are ok.
+* Since the documentation alludes that tokenization starts from left to right and is approx 3/4 of the word. The common words need to be worked out.
+
 
 
 ## Progress
