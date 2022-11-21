@@ -5,20 +5,20 @@ draft: false
 ---
 
 
-# OpenAI fine tuning with a notebook in VSCode
+### OpenAI fine tuning with a notebook in VSCode
 
 
 AI is the future. Co-pilot is the future. Building a finetuned layer for GPT-X will enable products to produce results faster, with less upfront effort for a fraction of the cost.
 
 
-## Setting up a training set
+###  Setting up a training set
 
 Let's assume for this post, it is based on some structured data. That structured data has been tagged by a human, and there is a lot of it. Rougly 3 MB of data.
 
 The question now is `how does one fine tune gpt-3 with this data`?
 
 
-## Jump Right in
+### Jump Right in
 
 ### Generate the data.
 
@@ -58,7 +58,9 @@ prompt_loss_weight = 0.1
 classification_n_classes = 87
 ```
 
-`!openai api fine_tunes.create -t "tags_completion_prepared_train.jsonl" -v "tags_completion_prepared_valid.jsonl" --compute_classification_metrics --classification_n_classes $classification_n_classes --no_check_if_files_exist -m $model --n_epochs $n_epochs --batch_size $batch_size --learning_rate_multiplier $learning_rate_multiplier --prompt_loss_weight $prompt_loss_weight`
+```
+!openai api fine_tunes.create -t "tags_completion_prepared_train.jsonl" -v "tags_completion_prepared_valid.jsonl" --compute_classification_metrics --classification_n_classes $classification_n_classes --no_check_if_files_exist -m $model --n_epochs $n_epochs --batch_size $batch_size --learning_rate_multiplier $learning_rate_multiplier --prompt_loss_weight $prompt_loss_weight`
+```
 
 ### Meaning of the inputs
 * *model* - The name of the base model to fine-tune. You can select one of "ada", "babbage", "curie", or "davinci". To learn more about these models, see the Models documentation.
