@@ -76,7 +76,7 @@ Grief Today I recieved the official news that my dad has stage 4-5 prostate canc
       <pubDate>Wed, 12 Oct 2022 14:52:53 -0700</pubDate>
       
       <guid>https://dathan.github.io/blog/posts/gcp-cloudsql-postgresql/</guid>
-      <description>Google GCP CloudSQL PostgreSQL Administration I like to configure most of my infrastructure in Hashicorp terraform. The terraform was not developer friendly in my experience because it had a lot of prerequsites on defining the server config, instead of picking a class that just seems right. Building custom things, allows for varience. Thus I built and am administring the CloudSQL artifacts through the desktop cloudsql interface. So far so good.</description>
+      <description>Google GCP CloudSQL PostgreSQL Administration I like to configure most of my infrastructure in Hashicorp terraform. The terraform was not developer friendly in my experience because it had a lot of prerequisites for defining the server config, instead of picking a class that just seems right. Building custom things allows for variance. Thus I built and am administering the CloudSQL artifacts through the desktop cloud SQL interface. So far so good.</description>
     </item>
     
     <item>
