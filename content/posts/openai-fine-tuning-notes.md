@@ -99,6 +99,22 @@ What this means is that the train or valid file does not have enough data for ea
 * This command allows you to view the classes and the 1st token - this helps determine if your tokens are ok.
 * Since the documentation alludes that tokenization starts from left to right and is approx 3/4 of the word. The common words need to be worked out.
 
+```
+#keep a map
+checkDict = {}
+distinct = 0
+for index, row in df.iterrows():
+    # if the completion exists in the dict use that value
+    if row['completion'] in checkDict:
+       df.at[index,'completion'] = " {}".format(checkDict[row['completion']])
+    else:
+        distinct += 1
+        checkDict[row['completion']] = distinct
+        df.at[index, 'completion'] = " {}".format(checkDict[row['completion']])
+
+# Save the data as jsonl file\n",
+df.to_json("tags_completion.jsonl", orient='records', lines=True)
+```
 
 
 ## Progress
