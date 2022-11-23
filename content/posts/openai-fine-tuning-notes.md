@@ -119,4 +119,32 @@ df.to_json("tags_completion.jsonl", orient='records', lines=True)
 
 ## Progress
 
-Most of my time is massaging the data to fine tune gpt-3. I am very close and will update this post once I get past my last error.
+~~Most of my time is massaging the data to fine tune gpt-3. I am very close and will update this post once I get past my last error.~~
+
+```
+[2022-11-22 16:16:13] Created fine-tune: ft-nS4OFS8a3OJkocRDZDUJWQbC
+[2022-11-22 16:16:26] Fine-tune costs $6.46
+[2022-11-22 16:16:27] Fine-tune enqueued. Queue number: 0
+[2022-11-22 16:16:28] Fine-tune started
+[2022-11-22 16:36:12] Completed epoch 1/4
+[2022-11-22 16:55:58] Completed epoch 2/4
+[2022-11-22 17:15:44] Completed epoch 3/4
+[2022-11-22 17:35:31] Completed epoch 4/4
+[2022-11-22 17:36:13] Uploaded model: ada:ft-plato-2022-11-22-17-36-13
+[2022-11-22 17:36:14] Uploaded result file: file-90eDYfUoUP5VEVfBHBmHy93s
+[2022-11-22 17:36:14] Fine-tune succeeded
+
+Job complete! Status: succeeded 🎉
+Try out your fine-tuned model:
+
+openai api completions.create -m ada:ft-plato-2022-11-22-17-36-13 -p <YOUR_PROMPT>
+```
+
+
+### Conclustion
+
+* prompt and completion lenght must not be longer than 2048 characters
+* each completion is a classification class and must be token unique, thus switching the completion to a number is ideal (1-100)
+* there *SHOULD* be 100 data points for each completion
+* both train and valid files need ALL comletions present ideally at least 100 in each file.
+
