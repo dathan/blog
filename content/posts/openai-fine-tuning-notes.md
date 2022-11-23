@@ -148,3 +148,7 @@ openai api completions.create -m ada:ft-plato-2022-11-22-17-36-13 -p <YOUR_PROMP
 * there *SHOULD* be 100 data points for each completion
 * both train and valid files need ALL comletions present ideally at least 100 in each file.
 
+
+### Helpful links
+
+* [https://github.com/openai/openai-cookbook](OpenAI Cookbook)
