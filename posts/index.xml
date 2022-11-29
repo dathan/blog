@@ -9,7 +9,16 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 21 Nov 2022 10:06:01 -0400</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Nov 2022 12:06:24 -0400</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hyper Delivery to Iterate for the Customer</title>
+      <link>https://dathan.github.io/blog/posts/hyper-delivery-to-iterate-for-the-customer/</link>
+      <pubDate>Tue, 29 Nov 2022 12:06:24 -0400</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/hyper-delivery-to-iterate-for-the-customer/</guid>
+      <description>As software engineers, especially product engineering, one of our core objectives is to deliver software solutions to customers quickly, while still maintaining the quality of the product. It is not enough to simply produce a product and ship it out - we need to ensure that the product fits the customer’s needs, and can evolve to meet the customer’s changing demands. To achieve this, we need to establish a set of software delivery practices that prioritize speed and iteration to find product market fit.</description>
+    </item>
+    
     <item>
       <title>Openai Fine Tuning Notes</title>
       <link>https://dathan.github.io/blog/posts/openai-fine-tuning-notes/</link>
