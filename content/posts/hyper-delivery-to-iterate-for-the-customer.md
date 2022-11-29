@@ -46,6 +46,10 @@ Workflows are common patterns used to add functionality to the product. For inst
 Initially, after the team agrees on a layout, and workflows, next pick 4 infrastructure items to start with. For instance containers, k8s, Postgres, and cronjobs. Do not add more tools until you have users. Remember 100s of new users a week, with a simple backend, allows you to iterate much faster. The scale comes in when virality and or product market fit comes in. Thus do not make a complex backend. Consistency and simplicity will get you very far. Pre-scaling is a time sync. Add
 comlexity like a message bus, when your solving asyncronous problems that polling cannot solve, such as scaling a team.
 
+### Tech-docs, code reviews, testing, doing it right.
+
+Do not do it right initally. Personally I feel dirty saying this, but none of the work produced means anything unless the customer wants it. Once the iteration cycle happens, and delivery to the user is real-time hold off on adding these things, then add them to core funnels and or intersection when working or chaning someone elses owned area. This is counter to what many of us have been taught. This stragtegy is only valid when finding that product market fit. So be prepared to throw things away or rewite things that where done to make it more team compatible.
+
 ### Conclusion
 
 By implementing these practices, we can ensure that our software delivery process is efficient, effective, and successful. Our goal should always be to find the best product-market fit for our users. With the right processes in place, we can ensure that our software is always meeting the needs of our customers.
