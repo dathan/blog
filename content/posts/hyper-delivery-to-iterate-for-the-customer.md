@@ -58,7 +58,7 @@ Remember 100s of new users a week, with a simple backend, allows you to iterate 
 
 Do not do it right initally.  I feel dirty saying this; none of the work produced means anything unless the customer wants it. Once a fit is reached and an iteration cycle happens, a state where improvements are reaching a refactor stage, and complexity is growing take a volunteer approch to the priority of tech-factoring, code reviews, testing.
 
-Once the iteration phase cycle happens, and delivery to the user is real-time  hold off on adding these things, then add them to core funnels and or an intersection event occurs when working or chaning someone elses owned area. This is counter to what many of us have been taught. This stragtegy is only valid when finding that inital product market fit. So, be prepared to throw code away or rewite code
+Until the iteration phase cycle happens, and delivery to the user is near real-time hold off on adding these things. Once the phase is reached add the *dicipline layer* to core funnels first and or an intersection event on changing someone elses owned area. This is counter to what many of us have been taught. This stragtegy is only valid when finding that inital product market fit. So, be prepared to throw code away or rewite code
 
 ### Conclusion
 
