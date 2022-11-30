@@ -30,25 +30,33 @@ Above is a generic good practice set of rules AFTER a team agrees to the project
 
 This step defines when to write a cronjob, versus making an endpoint for the front-end client to consume. This also sets up a workflow of how to add endpoints, and what permissions are needed to view said endpoints.
 
+### Workflows
+
+Workflows are essential for creating a seamless user experience in any product. They provide structure and guidance for a team when implementing features, ensuring that no step is overlooked or neglected. A great example of a workflow is the Front Controller for an MVC framework. This provides a clear direction for how to add an endpoint and ensures that the login process does not need to be implemented multiple times.
+
+Another use for workflows is setting up public endpoints for a backend REST/GRAPHQL system. This allows the core of the system to be implemented once and the interface (decorators, etc) to be used as the workflow pattern. This way, developers can easily add roles of access to an endpoint, giving users the proper amount of authorization while still keeping the system secure.
+
+Workflows are a powerful tool for creating a well-structured backend extension system with a great user experience for developers. They provide guidance and direction to the development team and make sure that no step is overlooked.  Workflows are essential for building a successful product and should be taken into consideration when designing a system.
+
 ### Each Software Engineer is given Ownership of a full-stack implementation
 
-The goal is to get the product out to the user and verify that the solution provided makes sense. You can spend years trying to guess if something works, or the customers you are building for could tell you as you build it.  
+The goal is to get the product out to the user and verify that the solution provided makes sense. You can spend years trying to guess if something works, or the customers you are building for could tell you as you build it.
 
-To enable teams, allow them to achieve the product specifications in a silo following the established workflows, using a small set of infrastructure to deliver a monolith to the customer as quickly as possible. This also means that as a team you're prepared to refactor during iterations of the initial product offering.
+To enable teams, allow them to achieve the product specifications in a silo following the established workflows, using a small set of infrastructure to deliver a monolith to the customer as quickly as possible.
 
-### Workflows 
-
-Workflows are common patterns used to add functionality to the product. For instance, using a Front Controller for an MVC framework. This gives direction on how to add an endpoint, and also it gives confidence to the team that login does not have to be implemented multiple times. Additionally use the same language to move fast, and start with a monolith so each developer is developing in the same development environment with Github actions pushing to production.
+This also means that as a team you're prepared to refactor during iterations of the initial product offering, and to refactor there has to be a purpose. Clarity, speed, conventions and one other engineer knows the context are some guiding principals for a successful refactor, which requires a post of its own.
 
 
 ### Start Simple and only add complexity when needed
 
-Initially, after the team agrees on a layout, and workflows, next pick 4 infrastructure items to start with. For instance containers, k8s, Postgres, and cronjobs. Do not add more tools until you have users. Remember 100s of new users a week, with a simple backend, allows you to iterate much faster. The scale comes in when virality and or product market fit comes in. Thus do not make a complex backend. Consistency and simplicity will get you very far. Pre-scaling is a time sync. Add
-comlexity like a message bus, when your solving asyncronous problems that polling cannot solve, such as scaling a team.
+Initially, after the team agrees on a layout, and workflows, next pick 4 infrastructure items to start with.  For instance containers, k8s, Postgres, and cronjobs. Do not add more tools until you have users.
+Remember 100s of new users a week, with a simple backend, allows you to iterate much faster. The scale comes in when virality and or product market fit comes in. Thus do not make a complex backend. Consistency     and simplicity (boring) will get you very far. Pre-scaling is a time sync. Add complexity like a message bus, when your solving asyncronous problems that polling cannot solve, such as scaling a team to add to the code base in a workflow pattern.
 
 ### Tech-docs, code reviews, testing, doing it right.
 
-Do not do it right initally. Personally I feel dirty saying this, but none of the work produced means anything unless the customer wants it. Once the iteration cycle happens, and delivery to the user is real-time hold off on adding these things, then add them to core funnels and or intersection when working or chaning someone elses owned area. This is counter to what many of us have been taught. This stragtegy is only valid when finding that product market fit. So be prepared to throw things away or rewite things that where done to make it more team compatible.
+Do not do it right initally.  I feel dirty saying this; none of the work produced means anything unless the customer wants it. Once a fit is reached and an iteration cycle happens, a state where improvements are reaching a refactor stage, and complexity is growing take a volunteer approch to the priority of tech-factoring, code reviews, testing.
+
+Once the iteration phase cycle happens, and delivery to the user is real-time  hold off on adding these things, then add them to core funnels and or an intersection event occurs when working or chaning someone elses owned area. This is counter to what many of us have been taught. This stragtegy is only valid when finding that inital product market fit. So, be prepared to throw code away or rewite code
 
 ### Conclusion
 
