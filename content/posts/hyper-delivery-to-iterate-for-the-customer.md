@@ -36,7 +36,9 @@ Workflows are essential for creating a seamless user experience in any product. 
 
 Another use for workflows is setting up public endpoints for a backend REST/GRAPHQL system. This allows the core of the system to be implemented once and the interface (decorators, etc) to be used as the workflow pattern. This way, developers can easily add roles of access to an endpoint, giving users the proper amount of authorization while still keeping the system secure.
 
-Workflows are a powerful tool for creating a well-structured backend extension system with a great user experience for developers. They provide guidance and direction to the development team and make sure that no step is overlooked.  Workflows are essential for building a successful product and should be taken into consideration when designing a system.
+In fact this blog post is just a workflow to produce. hugo new content/posts/hyper-delivery-to-iterate-for-the-customer.md. Write the content, spell check it, check the file into main, push the change to remote, allow github actions to publish the change. The workflow for me is write and push the content. The workflow for github is to execute an action to publish once main is modified.
+
+Workflows are a powerful tool for creating a well-structured backend extension system with a great user experience for developers. They provide guidance and direction to the development team and make sure that no step is overlooked.  Workflows are essential for building a successful product and should be taken into consideration when designing a system. I
 
 ### Each Software Engineer is given Ownership of a full-stack implementation
 
