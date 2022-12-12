@@ -9,7 +9,16 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 29 Nov 2022 12:06:24 -0400</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Dec 2022 13:21:48 -0800</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Journal Tasks Log 4</title>
+      <link>https://dathan.github.io/blog/posts/journal-tasks-log-4/</link>
+      <pubDate>Mon, 12 Dec 2022 13:21:48 -0800</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-4/</guid>
+      <description>Integrate vendor package and give results  remove API from the front end save? room and return the room id that is created creator makes rooms participants need to be a part of a session to join a room need an error layer verify session against joining a room fix the buttons to look like a poor man&amp;rsquo;s zoom in terms of layout  </description>
+    </item>
+    
     <item>
       <title>Hyper Delivery to Iterate for the Customer</title>
       <link>https://dathan.github.io/blog/posts/hyper-delivery-to-iterate-for-the-customer/</link>
