@@ -15,4 +15,6 @@ draft: false
 * need an error layer  ✅
 * verify session against joining a room   ✅
 * fix the buttons to look like a poor man's zoom in terms of layout  ✅
-
+* Add speaker view to the layout
+* add new button layout using their button scheme
+* add code to add fake cells
