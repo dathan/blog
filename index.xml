@@ -9,7 +9,17 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Dec 2022 13:21:48 -0800</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Dec 2022 14:46:26 -0800</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Journal Tasks Log 5</title>
+      <link>https://dathan.github.io/blog/posts/journal-tasks-log-5/</link>
+      <pubDate>Mon, 19 Dec 2022 14:46:26 -0800</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-5/</guid>
+      <description>Goal Record cloud video and transcribe it
+Tasks  Setup cloud storage endpoint ✅ Build a meeting token endpoint and pass that to the call creation enable recording - when the session owner joins  </description>
+    </item>
+    
     <item>
       <title>Journal Tasks Log 4</title>
       <link>https://dathan.github.io/blog/posts/journal-tasks-log-4/</link>
@@ -72,19 +82,9 @@ Tasks  Use a headless browser to log in with google oAuth ✅ Pass the Text to s
     <item>
       <title>Journal Tasks Log 1</title>
       <link>https://dathan.github.io/blog/posts/journal-tasks-log-1/</link>
-      <pubDate>Wed, 26 Oct 2022 13:38:40 -0700</pubDate>
-      
-      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-1/</guid>
-      <description>Focus I am trying to build an interface to a tool, that uses google auth, takes some text and summerizes the content to a few bullet points. Then from these bullet points, build a social post.
-Grief Today I recieved the official news that my dad has stage 4-5 prostate cancer, thyroid cancer, and most likely bone cancer from the scan. I write this for self-releaf. To remind myself, he is on the other side of the United States, in Maryland.</description>
-    </item>
-    
-    <item>
-      <title>Journal Tasks Log</title>
-      <link>https://dathan.github.io/blog/posts/journal-tasks-log/</link>
       <pubDate>Fri, 21 Oct 2022 08:01:39 -0700</pubDate>
       
-      <guid>https://dathan.github.io/blog/posts/journal-tasks-log/</guid>
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-1/</guid>
       <description>Why My quest is to become better continuously as a human, parent, husband, man, engineer, and person. Better does not mean perfect but know that there is growth and that you never truly stop learning. The current me is good enough, I just want to do things better instead of thinking I am doing them better and that requires tracking and measurement. This is my log of things needed to organize my thoughts and be more self-disciplined.</description>
     </item>
     
