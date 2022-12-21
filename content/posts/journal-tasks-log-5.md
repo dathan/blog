@@ -13,7 +13,13 @@ Record cloud video and transcribe it
 # Tasks 
 
 * Setup cloud storage endpoint ✅
-* Build a meeting token endpoint and pass that to the call creation
-* enable recording - when the session owner joins
+* Build a meeting token endpoint and pass that to the call creation ✅
+* enable recording - when the session owner joins ✅
+* add command line applications to the base
+  * download file wrapper
+  * process file wrapper
+  * upload successful process wrapper
+* run command line from github
+* doc the results and how to reproduce
 
 
