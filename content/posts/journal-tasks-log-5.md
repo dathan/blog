@@ -19,6 +19,7 @@ Record cloud video and transcribe it
   * download file wrapper
   * process file wrapper
   * upload successful process wrapper
+  * update database state
 * run command line from github
 * doc the results and how to reproduce
 
