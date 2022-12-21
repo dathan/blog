@@ -20,6 +20,36 @@ Some keywords for the space: BPMN - Buisness Process Management
     1. Upload the file generated to s3
 1. Update the database that work is done
 
+### What the problem really translates to is solved by products
+1. Need a notification service to trigger each stage.
+2. Start WORK
+   1. Is this job a duplicate, 
+   2. is it running, 
+   3. can the worker run on the same dataset without being descructive
+   4. Grab a file from se3
+      1. is the network up
+      2. are the credenticals correct
+      3. can the worker signal when the file is downloaded
+      4. is the signal recieved
+   5. Process the file
+      1. is the network up
+      2. is the api available
+      3. can the state machiene be set to processed?
+   6. Upload the file generated to the correct bucket
+      1. is the network up
+      2. is state correct
+      3. is the database up
+      4. are the credentials correct
+      5. did the upload succeed
+      6. can the state machiene be set to uploaded?
+3. Update the database that the file has been processed.
+   1. error and state check ....
+4. Poll for more work 
+   1. error and state check ...
+
+
+A workflow engine allows you to just work on the buisness logic where retries and handling error are common to the engine.
+
 
 ### To validate the solution
 
