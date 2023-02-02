@@ -1,0 +1,66 @@
+meeting: {
+   id: '4fe61a58-0076-40e6-9e93-afb0eda7a412',
+   room: 'circle-numero-dos',
+   start_time: 1671638387,
+   duration: 4906,
+   ongoing: false,
+   max_participants: 6,
+   participants: [
+     {
+       user_id: '4c848a08-8811-45d3-b229-7df1dc709881',
+       participant_id: '01b35221-6a90-422e-8884-02bd4e0f833c',
+       user_name: 'Dathan Pattishall',
+       join_time: 1671638649,
+       duration: 4644
+     },
+     {
+       user_id: '492a2509-cf6d-488b-ab20-abf6e7fd98b9',
+       participant_id: '05e7b962-d528-4eee-9c8f-69deb942c7f6',
+       user_name: 'Jean-Baptiste Coger',
+       join_time: 1671640643,
+       duration: 750
+     },
+     {
+       user_id: '5db276e5-1bfe-4eff-a655-793556787358',
+       participant_id: '1c98a08f-3908-4e3a-8314-6ba1f29a644a',
+       user_name: "Julien Kernec'h",
+       join_time: 1671638471,
+       duration: 4816
+     },
+     {
+       user_id: '492a2509-cf6d-488b-ab20-abf6e7fd98b9',
+       participant_id: '5f15fe32-e6c0-48ff-a42c-7f064d46cc83',
+       user_name: 'Jean-Baptiste Coger',
+       join_time: 1671641445,
+       duration: 510
+     },
+     {
+       user_id: '935deaab-48ac-45a4-8f3f-36411234ee08',
+       participant_id: '6370053b-62b2-4a92-8a27-1b0f76d15fca',
+       user_name: 'Raphaël Saban',
+       join_time: 1671638418,
+       duration: 1420
+     },
+     {
+       user_id: '935deaab-48ac-45a4-8f3f-36411234ee08',
+       participant_id: '9be0d7e0-38e8-4665-9156-84c6261ffb32',
+       user_name: 'Raphaël Saban',
+       join_time: 1671639868,
+       duration: 3420
+     },
+     {
+       user_id: '492a2509-cf6d-488b-ab20-abf6e7fd98b9',
+       participant_id: 'b54806e8-12e0-41f8-9b93-6dabdc7d558b',
+       user_name: 'Jean-Baptiste Coger',
+       join_time: 1671638867,
+       duration: 1755
+     },
+     {
+       user_id: '91a3a133-186d-471f-8ea1-3fe700054c14',
+       participant_id: 'e976668c-020e-453a-88a5-48e11140ca86',
+       user_name: 'Adam Johnston',
+       join_time: 1671638387,
+       duration: 4890
+     }
+   ]
+ }

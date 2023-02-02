@@ -15,8 +15,8 @@ Record cloud video and transcribe it
 * Setup cloud storage endpoint ✅
 * Build a meeting token endpoint and pass that to the call creation ✅
 * enable recording - when the session owner joins ✅
-* add command line applications to the base
-  * download file wrapper
+* ~~add command line applications to the base~~ -- not going to do will use cloud functions
+  * ~~download file wrapper~~ - not needed will create a signed url
   * process file wrapper
   * upload successful process wrapper
   * update database state
