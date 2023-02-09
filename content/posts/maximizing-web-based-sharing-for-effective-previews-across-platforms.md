@@ -6,12 +6,11 @@ draft: false
 
 ## Motivation
 
-I have been writing sharing content on various platforms for quite some time. This is my attempt at recording all the things that I do to effectively share effective Previews across LinkedIn, Facebook, iMessage, Twitter and any other Open Graph compatible system.
+I have been writing code to support sharing content from the web on various platforms since 2010. This is my attempt at recording all the things that I do to effectively share effective Previews across LinkedIn, Facebook, iMessage, Twitter and any other Open Graph compatible system.
 
 ## History
 
 The Open Graph protocol was first introduced in 2010 by Facebook. It was created as a way for website owners to better control how their pages were represented when shared on Facebook. The protocol provides a standardized set of meta tags that can be added to a webpage's HTML code, allowing the page to specify details such as its title, description, and image. This allows Facebook (and other social media platforms) to display a more visually appealing and information-rich preview of the page when it's shared. The Open Graph protocol has since become a widely adopted standard, used by many websites to enhance the appearance of their pages when shared on social media.
-
 ## Tools for effective OG Tag Testing
 
 ### https://developers.facebook.com/tools/debug/
