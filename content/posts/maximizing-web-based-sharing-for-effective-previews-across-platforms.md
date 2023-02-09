@@ -4,15 +4,15 @@ date: 2023-02-02T10:02:44-08:00
 draft: false
 ---
 
-# Motivation
+## Motivation
 
 I have been writing sharing content on various platforms for quite some time. This is my attempt at recording all the things that I do to effectively share effective Previews across LinkedIn, Facebook, iMessage, Twitter and any other Open Graph compatible system.
 
-# History
+## History
 
 The Open Graph protocol was first introduced in 2010 by Facebook. It was created as a way for website owners to better control how their pages were represented when shared on Facebook. The protocol provides a standardized set of meta tags that can be added to a webpage's HTML code, allowing the page to specify details such as its title, description, and image. This allows Facebook (and other social media platforms) to display a more visually appealing and information-rich preview of the page when it's shared. The Open Graph protocol has since become a widely adopted standard, used by many websites to enhance the appearance of their pages when shared on social media.
 
-# Tools for effective OG Tag Testing
+## Tools for effective OG Tag Testing
 
 ### https://developers.facebook.com/tools/debug/
 
@@ -31,15 +31,16 @@ This will just render.
 
 This is probably the best client to use. Slack does a great job and renders quickly.
 
-### How to reach your laptop
+## How to reach your laptop
 
 Each of these tools require a public endpoint for that platform's crawler to fetch. Thus you will need to set up some sort of proxy to your development environment for fast iteration.
 
-My choice setup is ngrok. With two commands:
+My choice setup is `ngrok`. With two commands:
 
 `ngrok config add-authtoken`
 `ngrok http 3000` so the public can reach my node demo
 
+## Mimimum requirements to render correctly on a platform
 ### Basic Tags needed
 
 ```html
@@ -87,12 +88,13 @@ You need the following combo to have an effective post to share:
 * `og:url content="current_page_url"` - this is important, the current page url rule can be ignored and sometimes crawlers will display the wrong Open Graph Content for the current url, due to how the displayer implements their cache.
 * `og:image content="cdn_url"` - even if its a basic stock logo image you want to have an image on the display of the post. Its causes more real-estate to be used from the platform provider, increasing the chances of a click.
 
+## Notes on how not everything is the same
 
-# Facebook, Twitter, Imessage, LinkedIn, Slack implement everything differently og:crawl all differently
+### Facebook, Twitter, Imessage, LinkedIn, Slack implement everything differently og:crawl all differently
 
 * Facebook, Twitter cannot have query params over what I think is 255 characters
 * Imessage, LinkedIn, Slack are the best platforms that follow the spec without limiting the GET on their crawler arbirarely as of `2023-02-02T10:02:44-08:00`
 
-# Conclusion
+## Conclusion
 
 I want to push out this post, there is a lot of things that I am neglecting to mention. I will add them here over time. Check back soon :) 
