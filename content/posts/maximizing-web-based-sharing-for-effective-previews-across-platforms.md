@@ -1,7 +1,7 @@
 ---
 title: "Maximizing Web Based Sharing for Effective Previews Across Platforms"
 date: 2023-02-02T10:02:44-08:00
-draft: true
+draft: false
 ---
 
 # Motivation
@@ -26,6 +26,10 @@ https://tweetpik.com/twitter-card-validator instead
 ### https://www.linkedin.com/post-inspector/inspect/
 
 This will just render.
+
+### Slack
+
+This is probably the best client to use. Slack does a great job and renders quickly.
 
 ### How to reach your laptop
 
@@ -84,4 +88,11 @@ You need the following combo to have an effective post to share:
 * `og:image content="cdn_url"` - even if its a basic stock logo image you want to have an image on the display of the post. Its causes more real-estate to be used from the platform provider, increasing the chances of a click.
 
 
-# Facebook, Twitter, Imessage implement everything differently
+# Facebook, Twitter, Imessage, LinkedIn, Slack implement everything differently og:crawl all differently
+
+* Facebook, Twitter cannot have query params over what I think is 255 characters
+* Imessage, LinkedIn, Slack are the best platforms that follow the spec without limiting the GET on their crawler arbirarely as of `2023-02-02T10:02:44-08:00`
+
+# Conclusion
+
+I want to push out this post, there is a lot of things that I am neglecting to mention. I will add them here over time. Check back soon :) 
