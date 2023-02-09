@@ -9,7 +9,17 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 19 Dec 2022 14:46:26 -0800</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Feb 2023 10:02:44 -0800</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maximizing Web Based Sharing for Effective Previews Across Platforms</title>
+      <link>https://dathan.github.io/blog/posts/maximizing-web-based-sharing-for-effective-previews-across-platforms/</link>
+      <pubDate>Thu, 02 Feb 2023 10:02:44 -0800</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/maximizing-web-based-sharing-for-effective-previews-across-platforms/</guid>
+      <description>Motivation I have been writing sharing content on various platforms for quite some time. This is my attempt at recording all the things that I do to effectively share effective Previews across LinkedIn, Facebook, iMessage, Twitter and any other Open Graph compatible system.
+History The Open Graph protocol was first introduced in 2010 by Facebook. It was created as a way for website owners to better control how their pages were represented when shared on Facebook.</description>
+    </item>
+    
     <item>
       <title>Journal Tasks Log 5</title>
       <link>https://dathan.github.io/blog/posts/journal-tasks-log-5/</link>
