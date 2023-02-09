@@ -27,6 +27,10 @@ https://tweetpik.com/twitter-card-validator instead
 
 This will just render.
 
+### https://www.opengraph.xyz 
+
+This is great tool but does not simulate the platform correctly
+
 ### Slack
 
 This is probably the best client to use. Slack does a great job and renders quickly.
