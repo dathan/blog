@@ -9,7 +9,17 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Feb 2023 10:02:44 -0800</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 11:02:09 -0800</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering High-Performance Inital Loads: A Guide to Using Typescript, Next.js, Chakra UI, and Static Props for Seamless Web Development</title>
+      <link>https://dathan.github.io/blog/posts/rendering-with-typescript-nextjs-chakra-ui-static-props/</link>
+      <pubDate>Wed, 15 Feb 2023 11:02:09 -0800</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/rendering-with-typescript-nextjs-chakra-ui-static-props/</guid>
+      <description>Motevation As an Engineer, I&amp;rsquo;m always on the lookout for new and exciting challenges. So when I was tasked with solving a rendering problem in a Typescript application, I jumped at the opportunity to learn and figure it out.
+In this blog post, I&amp;rsquo;ll be sharing my experience and insights into rendering in a Typescript application within a Vercel environment, using Node 18+, Next.js, strict Eslint guidelines, and Chakra UI for custom components.</description>
+    </item>
+    
     <item>
       <title>Maximizing Web Based Sharing for Effective Previews Across Platforms</title>
       <link>https://dathan.github.io/blog/posts/maximizing-web-based-sharing-for-effective-previews-across-platforms/</link>
