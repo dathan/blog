@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-# Motevation
+# Motivation
 
 As an Engineer, I'm always on the lookout for new and exciting challenges. So when I was tasked with solving a rendering problem in a Typescript application, I jumped at the opportunity to learn and figure it out.
 
