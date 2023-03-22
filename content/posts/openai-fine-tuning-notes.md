@@ -2,10 +2,8 @@
 title: "Openai Fine Tuning Notes"
 date: 2022-11-21T10:06:01-04:00
 draft: false
----
 
-
-### OpenAI fine tuning with a notebook in VSCode
+## OpenAI fine-tuning with a notebook in VSCode
 
 
 AI is the future. Co-pilot is the future. Building a finetuned layer for GPT-X will enable products to produce results faster, with less upfront effort for a fraction of the cost.
@@ -13,9 +11,9 @@ AI is the future. Co-pilot is the future. Building a finetuned layer for GPT-X w
 
 ###  Setting up a training set
 
-Let's assume for this post, it is based on some structured data. That structured data has been tagged by a human, and there is a lot of it. Rougly 3 MB of data.
+Let's assume for this post, is based on some structured data. That structured data has been tagged by a human, and there is a lot of it. Roughly 3 MB of data.
 
-The question now is `how does one fine tune gpt-3 with this data`?
+The question now is `how `does one `fine-tune` gpt-3 with` this data`?
 
 
 ### Jump Right in
@@ -44,10 +42,10 @@ df.to_json("tags_completion.jsonl", orient='records', lines=True)
 
 ```
 
-This command turns the data frames of prompt and compeltion to a file called tags_completion, which we will use openai to generate a valid and train set.
+This command turns the data frames of prompt and completion to a file called tags_completion, which we will use openai to generate a valid and train set.
 
 
-### Generate the valid and trainset for the classification
+### Generate the valid trainset for the classification
 
 ```
 model = 'ada'  # can be ada, babbage or curie
