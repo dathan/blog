@@ -11,8 +11,9 @@ draft: false
 Let's ask chat gpt:
 
 
-![chatgptresult](/blog/img/what-is-promp-engineering.png)
+![chatgptresult](/static/img/what-is-promp-engineering.pngblog/img/what-is-promp-engineering.png)
 
+### Response in text
 
 >Prompt engineering is the practice of crafting effective prompts to generate specific outputs from language models like LLMs (Large Language Models). It involves selecting the appropriate vocabulary, formatting, and instructions to help the model understand the desired task and generate the desired output.
 
