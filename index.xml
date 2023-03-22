@@ -9,7 +9,17 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 15 Feb 2023 11:02:09 -0800</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2023 14:34:34 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maximizing the Power of Language Models: Prompt Engineering</title>
+      <link>https://dathan.github.io/blog/posts/maximizing-the-power-of-language-models/</link>
+      <pubDate>Wed, 22 Mar 2023 14:34:34 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/maximizing-the-power-of-language-models/</guid>
+      <description>What is Prompt Engineering Let&amp;rsquo;s ask chat gpt:
+Prompt engineering is the practice of crafting effective prompts to generate specific outputs from language models like LLMs (Large Language Models). It involves selecting the appropriate vocabulary, formatting, and instructions to help the model understand the desired task and generate the desired output. Effective prompts can improve the performance of LLMs in various natural language processing tasks, such as language translation, sentiment analysis, text summarization, and language generation.</description>
+    </item>
+    
     <item>
       <title>Mastering High-Performance Inital Loads: A Guide to Using Typescript, Next.js, Chakra UI, and Static Props for Seamless Web Development</title>
       <link>https://dathan.github.io/blog/posts/rendering-with-typescript-nextjs-chakra-ui-static-props/</link>
