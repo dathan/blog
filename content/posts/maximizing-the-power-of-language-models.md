@@ -11,26 +11,24 @@ draft: false
 Let's ask chat gpt:
 
 
-![chatgptresult](../../static/img/what-is-promp-engineering.png)
+![chatgptresult](/blog/img/what-is-promp-engineering.png)
 
 
-```
-Prompt engineering is the practice of crafting effective prompts to generate specific outputs from language models like LLMs (Large Language Models). It involves selecting the appropriate vocabulary, formatting, and instructions to help the model understand the desired task and generate the desired output.
+>Prompt engineering is the practice of crafting effective prompts to generate specific outputs from language models like LLMs (Large Language Models). It involves selecting the appropriate vocabulary, formatting, and instructions to help the model understand the desired task and generate the desired output.
 
-Effective prompts can improve the performance of LLMs in various natural language processing tasks, such as language translation, sentiment analysis, text summarization, and language generation.
+>Effective prompts can improve the performance of LLMs in various natural language processing tasks, such as language translation, sentiment analysis, text summarization, and language generation.
 
-Here are some examples of prompts that prompt engineers may use to get the most out of a LLM:
+>Here are some examples of prompts that prompt engineers may use to get the most out of a LLM:
 
-Translation: For language translation, a prompt may include the source language text and instructions to generate the corresponding translated text in the target language. For example, a prompt for translating a French sentence to English may look like this: "Translate the following French sentence into English: 'Le chat noir saute sur la table.'"
+>Translation: For language translation, a prompt may include the source language text and instructions to generate the corresponding translated text in the target language. For example, a prompt for translating a French sentence to English may look like this: "Translate the following French sentence into English: 'Le chat noir saute sur la table.'"
 
-Summarization: For text summarization, a prompt may include a long document and instructions to generate a brief summary. For example, a prompt for summarizing an article about climate change may look like this: "Provide a one-paragraph summary of the following article on climate change: [Insert article text]."
+>Summarization: For text summarization, a prompt may include a long document and instructions to generate a brief summary. For example, a prompt for summarizing an article about climate change may look like this: "Provide a one-paragraph summary of the following article on climate change: [Insert article text]."
 
-Sentiment analysis: For sentiment analysis, a prompt may include a sentence or a paragraph and instructions to determine the sentiment expressed. For example, a prompt for analyzing the sentiment of a customer review may look like this: "Determine the sentiment of the following customer review: 'The product was excellent and exceeded my expectations.'"
+>Sentiment analysis: For sentiment analysis, a prompt may include a sentence or a paragraph and instructions to determine the sentiment expressed. For example, a prompt for analyzing the sentiment of a customer review may look like this: "Determine the sentiment of the following customer review: 'The product was excellent and exceeded my expectations.'"
 
-Text generation: For text generation, a prompt may include a few sentences and instructions to generate a coherent and relevant continuation. For example, a prompt for generating a news article may look like this: "Write a news article about the recent election results in [insert country], including the following details: [insert details]."
+>Text generation: For text generation, a prompt may include a few sentences and instructions to generate a coherent and relevant continuation. For example, a prompt for generating a news article may look like this: "Write a news article about the recent election results in [insert country], including the following details: [insert details]."
 
-In general, effective prompts should be specific, concise, and tailored to the desired output. By using well-crafted prompts, prompt engineers can enhance the capabilities of LLMs and improve their accuracy and efficiency in various natural language processing tasks.
-```
+>In general, effective prompts should be specific, concise, and tailored to the desired output. By using well-crafted prompts, prompt engineers can enhance the capabilities of LLMs and improve their accuracy and efficiency in various natural language processing tasks.
 
 
 ## So how can I use this in my code, how can I be a prompt engineer?
