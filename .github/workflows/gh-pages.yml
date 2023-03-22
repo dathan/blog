@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main  # Set a branch name to trigger deployment
+      - main # Set a branch name to trigger deployment
   pull_request:
 
 jobs:
@@ -14,24 +14,18 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.110.0'
+          hugo-version: "0.110.0"
 
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
-          cache: 'npm'
-          # The action defaults to search for the dependency file (package-lock.json,
-          # npm-shrinkwrap.json or yarn.lock) in the repository root, and uses its
-          # hash as a part of the cache key.
-          # https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-data
-          cache-dependency-path: '**/package-lock.json'
+          node-version: "18"
 
       - run: npm ci
 
@@ -44,8 +38,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
           commit_message: ${{ github.event.head_commit.message }}
-
-
