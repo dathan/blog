@@ -11,7 +11,7 @@ draft: false
 Let's ask chat gpt:
 
 
-![chatgptresult](/static/img/what-is-promp-engineering.pngblog/img/what-is-promp-engineering.png)
+![chatgptresult](/blog/img/what-is-promp-engineering.pngblog/img/what-is-promp-engineering.png)
 
 ### Response in text
 
