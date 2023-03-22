@@ -17,7 +17,8 @@
       
       <guid>https://dathan.github.io/blog/posts/maximizing-the-power-of-language-models/</guid>
       <description>What is Prompt Engineering Let&amp;rsquo;s ask chat gpt:
-Prompt engineering is the practice of crafting effective prompts to generate specific outputs from language models like LLMs (Large Language Models). It involves selecting the appropriate vocabulary, formatting, and instructions to help the model understand the desired task and generate the desired output. Effective prompts can improve the performance of LLMs in various natural language processing tasks, such as language translation, sentiment analysis, text summarization, and language generation.</description>
+Response in text Prompt engineering is the practice of crafting effective prompts to generate specific outputs from language models like LLMs (Large Language Models). It involves selecting the appropriate vocabulary, formatting, and instructions to help the model understand the desired task and generate the desired output.
+Effective prompts can improve the performance of LLMs in various natural language processing tasks, such as language translation, sentiment analysis, text summarization, and language generation.</description>
     </item>
     
     <item>
@@ -47,7 +48,7 @@ History The Open Graph protocol was first introduced in 2010 by Facebook. It was
       
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-5/</guid>
       <description>Goal Record cloud video and transcribe it
-Tasks  Setup cloud storage endpoint ✅ Build a meeting token endpoint and pass that to the call creation ✅ enable recording - when the session owner joins ✅ add command line applications to the base &amp;ndash; not going to do will use cloud functions  download file wrapper - not needed will create a signed url process file wrapper upload successful process wrapper update database state   run command line from github doc the results and how to reproduce  </description>
+Tasks Setup cloud storage endpoint ✅ Build a meeting token endpoint and pass that to the call creation ✅ enable recording - when the session owner joins ✅ add command line applications to the base &amp;ndash; not going to do will use cloud functions download file wrapper - not needed will create a signed url process file wrapper upload successful process wrapper update database state run command line from github doc the results and how to reproduce </description>
     </item>
     
     <item>
@@ -56,7 +57,7 @@ Tasks  Setup cloud storage endpoint ✅ Build a meeting token endpoint and pass 
       <pubDate>Mon, 12 Dec 2022 13:21:48 -0800</pubDate>
       
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-4/</guid>
-      <description>Integrate vendor package and give results  remove API from the front end ✅ save? room and return the room id that is created ✅ creator makes rooms ✅ participants need to be a part of a session to join a room ✅ need an error layer ✅ verify session against joining a room ✅ fix the buttons to look like a poor man&amp;rsquo;s zoom in terms of layout ✅ Add speaker view to the layout add new button layout using their button scheme add code to add fake cells  </description>
+      <description>Integrate vendor package and give results remove API from the front end ✅ save? room and return the room id that is created ✅ creator makes rooms ✅ participants need to be a part of a session to join a room ✅ need an error layer ✅ verify session against joining a room ✅ fix the buttons to look like a poor man&amp;rsquo;s zoom in terms of layout ✅ Add speaker view to the layout add new button layout using their button scheme add code to add fake cells </description>
     </item>
     
     <item>
@@ -74,8 +75,8 @@ Tasks  Setup cloud storage endpoint ✅ Build a meeting token endpoint and pass 
       <pubDate>Mon, 21 Nov 2022 10:06:01 -0400</pubDate>
       
       <guid>https://dathan.github.io/blog/posts/openai-fine-tuning-notes/</guid>
-      <description>OpenAI fine tuning with a notebook in VSCode AI is the future. Co-pilot is the future. Building a finetuned layer for GPT-X will enable products to produce results faster, with less upfront effort for a fraction of the cost.
-Setting up a training set Let&amp;rsquo;s assume for this post, it is based on some structured data. That structured data has been tagged by a human, and there is a lot of it.</description>
+      <description>OpenAI fine-tuning with a notebook in VSCode AI is the future. Co-pilot is the future. Building a finetuned layer for GPT-X will enable products to produce results faster, with less upfront effort for a fraction of the cost.
+Setting up a training set Let&amp;rsquo;s assume for this post, is based on some structured data. That structured data has been tagged by a human, and there is a lot of it. Roughly 3 MB of data.</description>
     </item>
     
     <item>
@@ -85,7 +86,7 @@ Setting up a training set Let&amp;rsquo;s assume for this post, it is based on s
       
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-3/</guid>
       <description>Scope Learn how to fine tune a model
-Tasks  Go through an openai tutorial Take companies data and train a model Run through test cases Learn how to enable or disable finetuning to show improvements Learn how to fine tune a model Publish details via a post  </description>
+Tasks Go through an openai tutorial Take companies data and train a model Run through test cases Learn how to enable or disable finetuning to show improvements Learn how to fine tune a model Publish details via a post </description>
     </item>
     
     <item>
@@ -106,7 +107,7 @@ Context The problem is summarized as timeouts that need to be configured for the
       
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-2/</guid>
       <description>Scope Create an API endpoint using an unfriendly provider.
-Tasks  Use a headless browser to log in with google oAuth ✅ Pass the Text to summerize to application ✅ Grab response from unfriendly provider and structure the response into what we need for return. ✅ Create an API interface to enable this.  First Steps  Lets try to get the existing app to push text Then change the existing app to take text as an input Make sure to grab the response.</description>
+Tasks Use a headless browser to log in with google oAuth ✅ Pass the Text to summerize to application ✅ Grab response from unfriendly provider and structure the response into what we need for return. ✅ Create an API interface to enable this. First Steps Lets try to get the existing app to push text Then change the existing app to take text as an input Make sure to grab the response.</description>
     </item>
     
     <item>
@@ -135,7 +136,7 @@ Tasks  Use a headless browser to log in with google oAuth ✅ Pass the Text to s
       <guid>https://dathan.github.io/blog/posts/understanding-jsonb-postgres/</guid>
       <description>I am running across how to debug data in PostgreSQL, a platform I am not familiar with. Specifically using JSONB_SET. JSONB_SET documentation is the following
 jsonb_set ( target jsonb, path text[], new_value jsonb [, create_if_missing boolean ] ) → jsonb
- Returns target with the item designated by path replaced by new_value, or with new_value added if create_if_missing is true (which is the default) and the item designated by path does not exist.</description>
+Returns target with the item designated by path replaced by new_value, or with new_value added if create_if_missing is true (which is the default) and the item designated by path does not exist.</description>
     </item>
     
     <item>
@@ -168,7 +169,7 @@ git clone https://github.com/GoogleCloudPlatform/gke-managed-certs cd gke-manage
       <guid>https://dathan.github.io/blog/posts/launching-gke-autopilot/</guid>
       <description>I am going to launch foreveraward.com on Kubernetes because why not? I need something to manage the foreveraward container and I am good with Kubernetes.
 The following checklist is going to be needed.
- Cluster GKE (1st time building) Helm3 compatible Ingress controller to support the ingress to the react app  Launching GKE cluster Creating a cluster Using gcloud the command-line tool for Google cloud, let&amp;rsquo;s create a cluster with redundancy in us-west-1</description>
+Cluster GKE (1st time building) Helm3 compatible Ingress controller to support the ingress to the react app Launching GKE cluster Creating a cluster Using gcloud the command-line tool for Google cloud, let&amp;rsquo;s create a cluster with redundancy in us-west-1</description>
     </item>
     
     <item>
@@ -180,7 +181,7 @@ The following checklist is going to be needed.
       <description>I am attempting to build a dApp. The problem is I do not know modern javascript, nor solidity. I am learning to react as I build the product to ensure that I can hit my overall goal of building foreveraward.com
 Import curly braces This question is asked on StackOverflow with a great answer
 Specifically, if I have a statement with the following:
-import { A } from &#39;./A&#39; This is a named import called A and only works if there is a named export called A</description>
+import { A } from &amp;#39;./A&amp;#39; This is a named import called A and only works if there is a named export called A</description>
     </item>
     
     <item>
