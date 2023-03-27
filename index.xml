@@ -22,6 +22,18 @@ Effective prompts can improve the performance of LLMs in various natural languag
     </item>
     
     <item>
+      <title>Journal Tasks Log 6</title>
+      <link>https://dathan.github.io/blog/posts/journal-tasks-log-6/</link>
+      <pubDate>Wed, 08 Mar 2023 13:20:33 -0800</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-6/</guid>
+      <description>What problem am I trying to solve Extract content from a dailyco + deepgram session realtime
+What am I trying to do to solve the probkem Display the transcription realtime
+display the user and what they said display the avatar The avatar has a tooltip of the username make the body transparent and lighten up the boxes Summarize the transcription like a CNN key takeway of a speech.
+buffer the messages, once the messages hit a threshold empty the buffer AI Summarize fill the display buffer What is the priority Display &amp;ndash;&amp;gt; 1d and will require big changes Summarize &amp;ndash;&amp;gt; 1d an minor changes What am I going to do scope this to development ✅ display the avatar ✅ on meeting join and isOwner start transcribing ✅ show the transcription button for clients ✅ Just finished the design buildingof a real-time transcription summary service for meetings.</description>
+    </item>
+    
+    <item>
       <title>Mastering High-Performance Inital Loads: A Guide to Using Typescript, Next.js, Chakra UI, and Static Props for Seamless Web Development</title>
       <link>https://dathan.github.io/blog/posts/rendering-with-typescript-nextjs-chakra-ui-static-props/</link>
       <pubDate>Wed, 15 Feb 2023 11:02:09 -0800</pubDate>
