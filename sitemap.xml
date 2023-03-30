@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dathan.github.io/blog/</loc>
-    <lastmod>2023-03-27T13:19:22-07:00</lastmod>
+    <loc>https://dathan.github.io/blog/posts/chat-gpt-4-save-prompts-to-git/</loc>
+    <lastmod>2023-03-29T21:42:15-07:00</lastmod>
   </url><url>
-    <loc>https://dathan.github.io/blog/posts/looking-for-work/</loc>
-    <lastmod>2023-03-27T13:19:22-07:00</lastmod>
+    <loc>https://dathan.github.io/blog/</loc>
+    <lastmod>2023-03-29T21:42:15-07:00</lastmod>
   </url><url>
     <loc>https://dathan.github.io/blog/posts/</loc>
+    <lastmod>2023-03-29T21:42:15-07:00</lastmod>
+  </url><url>
+    <loc>https://dathan.github.io/blog/posts/looking-for-work/</loc>
     <lastmod>2023-03-27T13:19:22-07:00</lastmod>
   </url><url>
     <loc>https://dathan.github.io/blog/posts/maximizing-the-power-of-language-models/</loc>

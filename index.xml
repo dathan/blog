@@ -9,7 +9,19 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 27 Mar 2023 13:19:22 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Mar 2023 21:42:15 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chat with GPT-4 &amp; Save Prompts/Responses to Git</title>
+      <link>https://dathan.github.io/blog/posts/chat-gpt-4-save-prompts-to-git/</link>
+      <pubDate>Wed, 29 Mar 2023 21:42:15 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/chat-gpt-4-save-prompts-to-git/</guid>
+      <description>Saw an ask on Twitter A person I follow on Twitter tweeted:
+Is there a git/version control for prompts? I hate losing great prompts and I’d love to be able to iterate on them.
+So I created a quick command line chat to GPT-4 https://github.com/dathan/go-openai-prompt-git-save
+It is a go program, and you need an OPENAI Token and a GitHub User Token in your environment. The program is very simple. From the terminal, have a chat interface to OpenAi, and save the prompts asked, to GitHub, with the content from GPT-4&amp;rsquo;s response.</description>
+    </item>
+    
     <item>
       <title>Looking for Work</title>
       <link>https://dathan.github.io/blog/posts/looking-for-work/</link>
