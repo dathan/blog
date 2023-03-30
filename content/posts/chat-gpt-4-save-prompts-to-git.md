@@ -15,7 +15,7 @@ https://github.com/dathan/go-openai-prompt-git-save
 
 It is a go program, and you need an OPENAI Token and a GitHub User Token in your environment. The program is very simple. From the terminal, have a chat interface to OpenAi, and save the prompts asked, to GitHub, with the content from GPT-4's response.
 
-The data get stored on GitHub. If the repo does not exist, it will create it. The program just appends every prompt and the prompts return then commits the changes to git, then pushes the changes to GitHub.
+If the remote repo does not exist, this program will create it. The program just appends every prompt and OpenAI's response to `prompts.md`. Then commits the changes to git and finally pushes the changes to GitHub.
 
 Now you can always keep your prompts.
 
