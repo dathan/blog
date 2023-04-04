@@ -23,15 +23,6 @@ It is a go program, and you need an OPENAI Token and a GitHub User Token in your
     </item>
     
     <item>
-      <title>Looking for Work</title>
-      <link>https://dathan.github.io/blog/posts/looking-for-work/</link>
-      <pubDate>Mon, 27 Mar 2023 13:19:22 -0700</pubDate>
-      
-      <guid>https://dathan.github.io/blog/posts/looking-for-work/</guid>
-      <description>Introduction Recently, I lost my job due to layoffs. This is the second time in my 29-year career in the tech industry that I&amp;rsquo;ve been laid off. I&amp;rsquo;m passionate about helping people when I can, so I&amp;rsquo;d like to share my game plan for finding new work. It&amp;rsquo;s worth noting that the last time I was laid off was in 2001-2002, during the big dot-com bubble. I was fortunate enough to avoid the 2008 crisis, and things began to improve afterward.</description>
-    </item>
-    
-    <item>
       <title>Maximizing the Power of Language Models: Prompt Engineering</title>
       <link>https://dathan.github.io/blog/posts/maximizing-the-power-of-language-models/</link>
       <pubDate>Wed, 22 Mar 2023 14:34:34 -0700</pubDate>
