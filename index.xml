@@ -9,7 +9,16 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Mar 2023 21:42:15 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 18:39:12 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vector Embeddings</title>
+      <link>https://dathan.github.io/blog/posts/vector-embeddings/</link>
+      <pubDate>Tue, 04 Apr 2023 18:39:12 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/vector-embeddings/</guid>
+      <description>What are Vector Embeddings Let&amp;rsquo;s go back to the number line. The distance between two points; This is a good example of what Vector Embeddings are, fingerprinting a document into a number in multi-dimensional space. Since a document can be represented as a number (series of numbers), now a relation can be made between two documents. The relation in terms of distance between two vectors (which could be a markdown document for instance), small distances have a high relatedness and large distances suggest a low relatedness.</description>
+    </item>
+    
     <item>
       <title>Chat with GPT-4 &amp; Save Prompts/Responses to Git</title>
       <link>https://dathan.github.io/blog/posts/chat-gpt-4-save-prompts-to-git/</link>
