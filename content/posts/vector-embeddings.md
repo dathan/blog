@@ -32,6 +32,22 @@ I am currently writing a GO program to help me illustrate this.
 https://github.com/dathan/go-vector-embedding
 
 
+## Resources 
+
+- https://github.com/openai/openai-cookbook/blob/main/text_comparison_examples.md
+
+- https://openai.com/blog/introducing-text-and-code-embeddings/
+
+- https://openai.com/blog/new-and-improved-embedding-model/
+
+- https://huggingface.co/spaces/mteb/leaderboard
+
+- https://github.com/openai/openai-cookbook/blob/main/examples/Semantic_text_search_using_embeddings.ipynb (example search)
+- https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_embeddings.ipynb
+- https://github.com/openai/openai-cookbook/blob/main/examples/Customizing_embeddings.ipynb
+
+
+
 ## Check back, I'll be updating this soon
 
 Thanks for reading!
