@@ -1,5 +1,5 @@
 ---
-title: "Using Playwight With Golang and Python to Grab Js Generated Csv"
+title: "Using Playwright With Golang and Python to Grab Js Generated Csv"
 date: 2023-04-25T16:10:17-07:00
 draft: false
 ---
