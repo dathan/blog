@@ -18,7 +18,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Engineering Thoughts"
-  description: "Engineering topics from Kubernetes to AI to virals to solving problems"
+  description: "Engineering topics from Kubernetes, Databases to AI to virals to solving problems"
   keywords: [Blog]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog. Work logs, K8s, Databases, Data Science, Software Engineering, PostGres and Networking topics!
+    Content: Engineering topics from Kubernetes, Databases to AI to virals to solving problems. Welcome!
 
   socialIcons:
     - name: twitter
