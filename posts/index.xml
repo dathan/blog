@@ -9,7 +9,17 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Apr 2023 18:39:12 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 16:10:17 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Playwight With Golang and Python to Grab Js Generated Csv</title>
+      <link>https://dathan.github.io/blog/posts/using-playwight-with-golang-and-python-to-grab-js-generated-csv/</link>
+      <pubDate>Tue, 25 Apr 2023 16:10:17 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/using-playwight-with-golang-and-python-to-grab-js-generated-csv/</guid>
+      <description>Problem I am helping out a friend, to process reports which are behind a paywall and store them in a database to create a churn detector, which will enable his crew to address the churn at hand.
+Details What is churn? Churn is a term used by companies to denote that a customer no longer wants to use the services they previously paid for. Each company has different metrics to give an indication that a customer is CHURING.</description>
+    </item>
+    
     <item>
       <title>Vector Embeddings</title>
       <link>https://dathan.github.io/blog/posts/vector-embeddings/</link>
