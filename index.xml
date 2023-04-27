@@ -9,7 +9,16 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 25 Apr 2023 16:10:17 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Apr 2023 15:38:31 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postmortem of a 2005 Flickr Outage Modernized for Today</title>
+      <link>https://dathan.github.io/blog/posts/postmortem-of-a-2005-flickr-outage-modernized-for-today/</link>
+      <pubDate>Wed, 26 Apr 2023 15:38:31 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/postmortem-of-a-2005-flickr-outage-modernized-for-today/</guid>
+      <description>Review of Flickr Architecture Before we delve into the Postmortem let&amp;rsquo;s review the details of the database architecture and Flickr&amp;rsquo;s overall Architecture at that time. Flickr at that time was a PHP shop, running PHP 4, using Smarty as its template Engine in Apache running MODPHP. PHP was everyplace because it&amp;rsquo;s a great engine. I am sure that many hate this statement, that PHP is X or PHP is Y but in reality, it enabled Flickr to jump from a top 100 destination in the USA to a top 5 destination in less than 2 years.</description>
+    </item>
+    
     <item>
       <title>Using Playwright With Golang and Python to Grab Js Generated Csv</title>
       <link>https://dathan.github.io/blog/posts/using-playwright-with-golang-and-python-to-grab-js-generated-csv/</link>
