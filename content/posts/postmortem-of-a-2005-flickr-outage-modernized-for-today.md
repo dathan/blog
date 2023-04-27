@@ -1,7 +1,7 @@
 ---
 title: "Postmortem of a 2005 Flickr Outage Modernized for Today"
 date: 2023-04-26T15:38:31-07:00
-draft: true
+draft: false
 ---
 
 # Review of Flickr Architecture
@@ -9,7 +9,7 @@ draft: true
 Before we delve into the Postmortem let's review the details of the database architecture and Flickr's overall Architecture at that time. Flickr at that time was a PHP shop, running PHP 4, using Smarty as its template Engine in Apache running MODPHP. PHP was everyplace because it's a great engine. I am sure that many hate this statement, that PHP is X or PHP is Y but in reality, it enabled Flickr to jump from a top 100 destination in the USA to a top 5 destination in less than 2 years. During these crucial 2 years, I was the main database architect and wrote a bunch of the PHP code that enabled Flickr to reach this level.
 
 
-The next two images from @iamcal show the overall architecture of Flickr at that time
+The next two images from [https://twitter.com/iamcal](@iamcal) show the overall architecture of Flickr at that time
 
 ![flickrlogical](/blog/img/Flickr-Logical-Arch-2007.png)
 
