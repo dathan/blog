@@ -69,7 +69,7 @@ For example, in a 6-disk RAID-10 array, the disks are divided into three mirrore
 
 `This RAID setup is a very important concept because essentially our RAID-10 disk setup conceptually is how our Shard Design is implemented. 2 Servers in a Main-Main config, where writes happen to one server and is mirrored to the other.`
 
-!(sharding)[/blog/img/Federation.png]
+![sharding](/blog/img/Federation.png)
 
 The MySQL setup at the time
 
