@@ -82,7 +82,7 @@ The MySQL setup at the time
 
 Imagine a database system where we are conceptually making a RAID-10 array out of database servers, but the database conceptually has all the data for a table on a single server originally. In a raid-10 system, there is no guarantee that all data for say the user's table will be on a single server pair.
 
-
+![fedration](/blog/img/Federation.png)
 
 In the image above we can see that user 1 is allocated to a single shard-pair denoted as 1 server, the same with user 2, user 3, and user 4. This means that if I want their data, I need to query their server. So how do I know where their server is for Flickr?
 
