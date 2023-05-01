@@ -141,7 +141,7 @@ Normally in the summary, I would put the mitigation but I am going to wait until
 
 - 6 am 2005 - Pager goes off, offline queue is growing
 - 6:05 am 2005 - An engineer responds to the page and indicates that Apache threads are maxed out
-- 6:15 am 2005 - Shard-3a is holding 3000 threads open, all blocked
+- 6:15 am 2005 - Shard-3a is holding 10000 threads open, all blocked
 - 6:15 am 2005 - An engineer restarts all Apache servers
 - 6:17 am 2005 - An engineer kills all queries on Shard-3a
 - 6:30 am 2005 - An engineer removes Shard-3a from the pool
