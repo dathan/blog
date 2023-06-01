@@ -9,13 +9,13 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 26 Apr 2023 15:38:31 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 May 2023 15:49:07 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Engineering Methods Based on Fictional Characters</title>
-      <link>https://dathan.github.io/blog/engineering-methods-based-on-fictional-characters/</link>
+      <link>https://dathan.github.io/blog/posts/engineering-methods-based-on-fictional-characters/</link>
       <pubDate>Tue, 30 May 2023 15:49:07 -0700</pubDate>
       
-      <guid>https://dathan.github.io/blog/engineering-methods-based-on-fictional-characters/</guid>
+      <guid>https://dathan.github.io/blog/posts/engineering-methods-based-on-fictional-characters/</guid>
       <description>Problem What are effective strategies for an engineer to communicate with their peers and answer their inquiries efficiently?
 Solution Appeal to your fellow engineers through shared cultural touchstones, like the well-known characters from science fiction that most engineers are familiar with.
 Case: Time Estimation in Software Engineering Every software engineer inevitably has to provide an estimate for when a code block, task, or project will be completed. Defining what &amp;ldquo;done&amp;rdquo; means can be complex.</description>
