@@ -9,7 +9,16 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 12 Jul 2023 15:13:44 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Aug 2023 07:19:41 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harnessing Rituals for Uniterrupted Uptime</title>
+      <link>https://dathan.github.io/blog/posts/harnessing-rituals-for-uniterrupted-uptime/</link>
+      <pubDate>Tue, 08 Aug 2023 07:19:41 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/harnessing-rituals-for-uniterrupted-uptime/</guid>
+      <description>Introduction In the ever-evolving landscape of site reliability engineering (SRE), ensuring the highest levels of uptime is the ultimate goal. Behind the scenes, a symphony of processes and practices come together to achieve this, and at the heart of it all are the rituals that we, as a large SRE team, follow with unwavering dedication. In this blog post, we&amp;rsquo;ll dive deep into the rituals that shape our approach to maintaining uptime, shedding light on how these practices contribute to a resilient system and empowered team.</description>
+    </item>
+    
     <item>
       <title>Focus by Answering What Problem Are We Solving</title>
       <link>https://dathan.github.io/blog/posts/focus-by-answering-what-problem-are-we-solving/</link>
@@ -275,16 +284,6 @@ What is a P1 incident An incident is when there is a customer visible outage tha
       <guid>https://dathan.github.io/blog/posts/nft-idea-project/</guid>
       <description>Problem An award given should be proveable even if that physical representation of the award was lost, yet if the physical object is lost did the award every really exist.
 Solution NFT Having a way to represent ownership to digital content on the web is a very powerful feature. The decentralized nature of the blockchain or what I like to call very slow peer-to-peer databases gives that implicit trust that a smart contract was minted and cannot be changed, thus can represent ownership.</description>
-    </item>
-    
-    <item>
-      <title>Rituals in DevOps for Teams</title>
-      <link>https://dathan.github.io/blog/posts/rituals_in_dev_ops/</link>
-      <pubDate>Mon, 18 Oct 2021 11:38:59 -0700</pubDate>
-      
-      <guid>https://dathan.github.io/blog/posts/rituals_in_dev_ops/</guid>
-      <description>Every Monday, leadership pass downs happen, then we have a standup, then we talk about the pages of the past week. To aid in this ritual, we have an automated Confluent Page, generated from a cronjob that documents all the PagerDuty&amp;rsquo;s pages. The program reads data over PagerDuty&amp;rsquo;s API and writes to Confluence API running as a cronjob in Kubernetes.
-These actions described since performed at a regular cadence is a ritual.</description>
     </item>
     
     <item>
