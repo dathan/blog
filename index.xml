@@ -272,8 +272,9 @@ import { A } from &amp;#39;./A&amp;#39; This is a named import called A and only
       <pubDate>Tue, 26 Oct 2021 18:07:05 -0700</pubDate>
       
       <guid>https://dathan.github.io/blog/posts/incident_management_process/</guid>
-      <description>Goal Define a runbook of sorts of how to run a common incident response process to ensure that we are working on the right thing, keeping all stakeholders in the loop, assigning focus roles, and getting to the root cause of the incident or at least mitigating the problem.
-What is a P1 incident An incident is when there is a customer visible outage that interrupts the behavior or functionality of the platform.</description>
+      <description>Incident Response Runbook This guide is meant to outline the process for running a common incident response. It ensures that we are working on the right problem, keeping all stakeholders informed, assigning focus roles, and discovering the root cause or at least mitigating the issue.
+Incident Priorities P0 (Critical Incident) A P0 incident is a complete outage or a severe degradation that affects all customers and requires immediate attention.
+P1 (Major Incident) A P1 incident refers to a customer-visible outage that interrupts the functionality or behavior of the platform.</description>
     </item>
     
     <item>
