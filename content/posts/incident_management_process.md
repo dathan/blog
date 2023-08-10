@@ -4,78 +4,80 @@ date: 2021-10-26T18:07:05-07:00
 draft: false
 ---
 
+# Incident Response Runbook
 
-# Goal
+This guide is meant to outline the process for running a common incident response. It ensures that we are working on the right problem, keeping all stakeholders informed, assigning focus roles, and discovering the root cause or at least mitigating the issue.
 
-Define a runbook of sorts of how to run a common incident response process to ensure that we are working on the right thing, keeping all stakeholders in the loop, assigning focus roles, and getting to the root cause of the incident or at least mitigating the problem.
+## Incident Priorities
 
+### P0 (Critical Incident)
+A P0 incident is a complete outage or a severe degradation that affects all customers and requires immediate attention.
 
+### P1 (Major Incident)
+A P1 incident refers to a customer-visible outage that interrupts the functionality or behavior of the platform.
 
-# What is a P1 incident
+### P2 (Minor Incident)
+A P2 incident may affect some functionality but doesn't lead to an entire system failure.
 
-An incident is when there is a customer visible outage that interrupts the behavior or functionality of the platform.
+### P3 (Low Impact Incident)
+A P3 incident may have an impact, but it's something that can be dealt with in a routine manner.
 
-## Examples of incidents:
+## Examples of P1 Incidents:
 
 * The Customer is unable to deploy
 * The account ran out of nodes to launch
 * Certificate expires
 * Config Management system is down
 * Database is down
+
 # Base Process
 
-[Five whys](https://en.wikipedia.org/wiki/Five_whys) - The primary goal of the technique is to determine the root cause of a defect or problem by repeating the question "Why?"
+## Five Whys Technique
+
+The primary goal of the [Five whys](https://en.wikipedia.org/wiki/Five_whys) technique is to determine the root cause of a defect or problem by repeatedly asking "Why?"
 
 ```
-Why? – The battery is dead. (First why)
-Why? – The alternator is not functioning. (Second why)
-Why? – The alternator belt has broken. (Third why)
-Why? – The alternator belt was well beyond its useful service life and not replaced. (Fourth why)
-Why? – The vehicle was not maintained according to the recommended service schedule. (Fifth why, a root cause)
-
-
+Why? – The service is down. (First why)
+Why? – The database connection failed. (Second why)
+Why? – The authentication token has expired. (Third why)
+Why? – The token was not refreshed. (Fourth why)
+Why? – The scheduled job for token refreshment failed. (Fifth why, a root cause)
 ```
 
-Note: Please [read](https://www.kitchensoap.com/2012/02/10/each-necessary-but-only-jointly-sufficient/) on why the Five Why's is a good start and there is more.
+Note: Please [read](https://www.kitchensoap.com/2012/02/10/each-necessary-but-only-jointly-sufficient/) about why the Five Why's is a good start and more.
 
+### Incident Response Steps
 
-1. Validate there is a problem and this problem is a P1 Incident as of the ilk described above.
-2. Create a Jira Ticket in the IM board
-3. Create a Slack war room, slack public channel, and invite all needed to help. You are not alone in an incident, this is not a runbook event, this is an outage affecting customers or members that do not have a response.
-4. Announce in #tech-outage
-5. Assign Roles
-6. Isolate and record experiments by coordinating with the roles of the IM
-7. Log for future Post Mortem
-8. Update Stakeholders every 15 to 45 minutes 
-9.  Log all manual changes
-10. Five Whys
-11. Verify recovery
-12. Announce resolved (Yellow Status)
-13. Announce resolved (Green status) when tech-debt is cleaned up after the customer verifies the fix
-14. Start Incident Report
-15. Schedule a Post Mortem
+1. Validate the problem and ensure it is a P1 Incident.
+2. Create a Jira Ticket in the IM board.
+3. Create a Slack war room, slack public channel, and invite all necessary personnel.
+4. Announce in #tech-outage.
+5. Assign Roles.
+6. Isolate and record experiments by coordinating with the roles of the IM.
+7. Log for future Post Mortem.
+8. Update Stakeholders every 15 to 45 minutes.
+9. Log all manual changes.
+10. Five Whys.
+11. Verify recovery.
+12. Announce resolved (Yellow Status).
+13. Announce resolved (Green status) when tech-debt is cleaned up after the customer verifies the fix.
+14. Start Incident Report.
+15. Schedule a Post Mortem.
 
+## Roles
 
+* **Communicator**: Provides updates, including those of no progress, to the stakeholders.
+* **Recorder**: Logs what is tried and did not work, creating an incident document following the base Jira procedure.
+* **Lead**: Works with the communicator and team to coordinate different ICs to determine the root cause.
+* **IC (Incident Commander)**: Coordinates with the lead and other ICs to ensure that experiments do not interfere with other efforts.
 
-# Roles
-
-*Communicator* - This role requires the person to give updates, even if there are none to the stakeholders’ slack channel(s) any and all updates of the current incident 
-
-*Recorder* - An incident document is created after the base Jira procedure is followed, a log of sorts of what is tried and did not work
-
-*Lead* - The lead works with the communicator and the Team coordinating different ICs to try distinct experiments to determine the root cause of the incident.
-
-*IC* - The end engineer working on the problem, coordinating with the lead and other ICs to ensure that the experiments do not interfere with other ICs and are recorded by the recorder.
-
-
-Follow the incident response process by focusing on what we are fixing, what is broken, and how data-did or did not verify our assumptions. We follow an experiment process described below, whilst communicating what step of the experiment you are at with the team.
+Follow the incident response process by focusing on what we are fixing, what is broken, and how data did or did not verify our assumptions. We follow an experimental process illustrated below, while communicating the step of the experiment with the team.
 
 ![Scientific Method](/blog/img/process.png)
 
+Finally, use observability tools to identify symptoms and narrow down the cause. The goal is disciplined, measured actions, avoiding the rush to "push many different buttons" for a quick fix.
 
-Finally use observability tools to identify symptoms to narrow down on the cause. Data should back experiment direction and conclusion to narrow down the problem.
 
-Think of the problem like a bomb exploding. Now when the bomb exploded you look at the debris first and take inventory of the damage. Start expanding the blast radius's scope and add more things involved in the blast radius. This is a measured divide and conquer of sorts where the problem is being defined incrementally as a path is traveled when there is enough data, stop or look elsewhere. The goal is to be disciplined, measured, and stop the rush of "pushing many different buttons" to rush to a fix.
 
 # RCA Followup
 
