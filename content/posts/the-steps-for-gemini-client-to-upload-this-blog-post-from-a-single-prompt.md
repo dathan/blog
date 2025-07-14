@@ -1,5 +1,5 @@
 ---
-title: "The Steps for Gemini Client to Upload This Blog Post From a Single Promot"
+title: "The Steps for Gemini Client to Upload This Blog Post From a Single Prompt"
 date: 2025-07-13T18:26:12-07:00
 draft: false
 ---
