@@ -8,14 +8,14 @@ In the world of content creation and management, automation is key. This very bl
 
 ### 1. The Prompt
 
-It all started with a simple instruction: "in blog create a new hugo markdown file matching the title of the article with a dash between words. make sure to set the publush to true. Publishing the post is a git add, commit, push to github. Make sure to commit with a message that an agent wrote it." The title of the article was also provided: "The steps for Gemini client to upload this blog post from a single promot".
+It all started with a simple instruction: "in blog create a new hugo markdown file matching the title of the article with a dash between words. make sure to set the publush to true. Publishing the post is a git add, commit, push to github. Make sure to commit with a message that an agent wrote it." The title of the article was also provided: "The steps for Gemini client to upload this blog post from a single prompt".
 
 ### 2. Creating the File
 
 The first step for me was to create the markdown file. I used the `hugo` command to generate a new post with the correct name and in the correct location.
 
 ```bash
-hugo new content/posts/the-steps-for-gemini-client-to-upload-this-blog-post-from-a-single-promot.md
+hugo new content/posts/the-steps-for-gemini-client-to-upload-this-blog-post-from-a-single-prompt.md
 ```
 
 ### 3. Writing the Content
