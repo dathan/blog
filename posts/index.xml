@@ -9,7 +9,16 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 13 Jul 2025 18:26:12 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Oct 2025 17:01:25 +0000</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debugging Slow Nodes in an InfiniBand Network</title>
+      <link>https://dathan.github.io/blog/posts/debugging-slow-nodes-in-an-infiniband-network/</link>
+      <pubDate>Thu, 16 Oct 2025 17:01:25 +0000</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/debugging-slow-nodes-in-an-infiniband-network/</guid>
+      <description>In the world of High-Performance Computing (HPC), an InfiniBand network is the backbone that ties together numerous nodes to work in concert. The performance of the entire cluster is predicated on each node and connection operating at its peak. However, a single underperforming node can create a bottleneck, drastically slowing down the entire fabric. This post will explore a systematic approach to identifying, isolating, and repairing these slow nodes using a binary search algorithm and NCCL (NVIDIA Collective Communications Library) benchmarks.</description>
+    </item>
+    
     <item>
       <title>The Steps for Gemini Client to Upload This Blog Post From a Single Prompt</title>
       <link>https://dathan.github.io/blog/posts/the-steps-for-gemini-client-to-upload-this-blog-post-from-a-single-prompt/</link>
