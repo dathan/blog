@@ -4,239 +4,254 @@
     <title>Posts on Engineering Thoughts</title>
     <link>https://dathan.github.io/blog/posts/</link>
     <description>Recent content in Posts on Engineering Thoughts</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 22 Mar 2023 14:34:34 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Oct 2025 10:00:00 -0700</lastBuildDate>
+    <atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RAS 2026: A Comparative Analysis of Cloud Providers for AI Workloads</title>
+      <link>https://dathan.github.io/blog/posts/ras-2026-comparative-analysis/</link>
+      <pubDate>Wed, 22 Oct 2025 10:00:00 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/ras-2026-comparative-analysis/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;As artificial intelligence continues to reshape industries, the underlying infrastructure powering these innovations is more critical than ever. For AI workloads, especially large-scale training and inference, the trifecta of Reliability, Availability, and Serviceability (RAS) is paramount. These three pillars determine the robustness, uptime, and maintainability of a system, directly impacting the performance and cost-effectiveness of AI applications.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we&amp;rsquo;ll explore the RAS landscape in 2026, comparing two distinct categories of cloud providers: the specialized clouds (Crusoe, Nimbix, CoreWeave) and the hyperscalers (AWS, GCP, Azure). We&amp;rsquo;ll then delve into how Crusoe, a key player in the specialized cloud space, can enhance its RAS offerings to deliver a superior customer experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Debugging Slow Nodes in an InfiniBand Network</title>
+      <link>https://dathan.github.io/blog/posts/debugging-slow-nodes-in-an-infiniband-network/</link>
+      <pubDate>Thu, 16 Oct 2025 17:01:25 +0000</pubDate>
+      <guid>https://dathan.github.io/blog/posts/debugging-slow-nodes-in-an-infiniband-network/</guid>
+      <description>&lt;p&gt;In the world of High-Performance Computing (HPC), an InfiniBand network is the backbone that ties together numerous nodes to work in concert. The performance of the entire cluster is predicated on each node and connection operating at its peak. However, a single underperforming node can create a bottleneck, drastically slowing down the entire fabric. This post will explore a systematic approach to identifying, isolating, and repairing these slow nodes using a binary search algorithm and NCCL (NVIDIA Collective Communications Library) benchmarks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Steps for Gemini Client to Upload This Blog Post From a Single Prompt</title>
+      <link>https://dathan.github.io/blog/posts/the-steps-for-gemini-client-to-upload-this-blog-post-from-a-single-prompt/</link>
+      <pubDate>Sun, 13 Jul 2025 18:26:12 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/the-steps-for-gemini-client-to-upload-this-blog-post-from-a-single-prompt/</guid>
+      <description>&lt;p&gt;In the world of content creation and management, automation is key. This very blog post is a testament to the power of AI and automation, as it was generated and published by Google&amp;rsquo;s Gemini in response to a single prompt. Here&amp;rsquo;s a look at the steps involved in this process:&lt;/p&gt;&#xA;&lt;h3 id=&#34;1-the-prompt&#34;&gt;1. The Prompt&lt;/h3&gt;&#xA;&lt;p&gt;It all started with a simple instruction: &amp;ldquo;in blog create a new hugo markdown file matching the title of the article with a dash between words. make sure to set the publush to true. Publishing the post is a git add, commit, push to github. Make sure to commit with a message that an agent wrote it.&amp;rdquo; The title of the article was also provided: &amp;ldquo;The steps for Gemini client to upload this blog post from a single prompt&amp;rdquo;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unlocking Simplicity: Embedding Executables in Go for Robust Deployments</title>
+      <link>https://dathan.github.io/blog/posts/embed-executables-inside-go-programs/</link>
+      <pubDate>Tue, 08 Jul 2025 17:45:00 -0500</pubDate>
+      <guid>https://dathan.github.io/blog/posts/embed-executables-inside-go-programs/</guid>
+      <description>&lt;p&gt;As a Director of Engineering, I&amp;rsquo;m always looking for ways to simplify our development and deployment processes. The more we can reduce external dependencies and streamline our tooling, the more reliable and maintainable our systems become. One of the most elegant solutions I&amp;rsquo;ve seen for this challenge comes from the Go ecosystem: embedding executables directly inside a Go binary.&lt;/p&gt;&#xA;&lt;p&gt;This technique is a game-changer for building self-contained applications. Imagine deploying a single, static binary that contains not only your core application but also all the necessary command-line tools or other executables it depends on. No more complex installation scripts, no more &lt;code&gt;PATH&lt;/code&gt; management, and no more version mismatches in production.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mapping Datacenter With Events</title>
+      <link>https://dathan.github.io/blog/posts/mapping-datacenter-with-events/</link>
+      <pubDate>Tue, 03 Sep 2024 19:33:13 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/mapping-datacenter-with-events/</guid>
+      <description>&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;&#xA;&lt;p&gt;In a datacenter the goal is to understand everything about the datacenter without actually having to be in the datacenter. How is this acheived?&lt;/p&gt;&#xA;&lt;h1 id=&#34;engineers-view-of-hardware&#34;&gt;Engineers view of Hardware&lt;/h1&gt;&#xA;&lt;p&gt;Most engineers don&amp;rsquo;t care where the physical placement of servers are, unless they are on-call for hardware issues and are asked to determine why a class of servers are all having errors, such as tempature errors. Knowing how servers are laid out helps with the RCA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Harnessing Rituals for Uniterrupted Uptime</title>
+      <link>https://dathan.github.io/blog/posts/harnessing-rituals-for-uniterrupted-uptime/</link>
+      <pubDate>Tue, 08 Aug 2023 07:19:41 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/harnessing-rituals-for-uniterrupted-uptime/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;In the ever-evolving landscape of site reliability engineering (SRE), ensuring the highest levels of uptime is the ultimate goal. Behind the scenes, a symphony of processes and practices come together to achieve this, and at the heart of it all are the rituals that we, as a large SRE team, follow with unwavering dedication. In this blog post, we&amp;rsquo;ll dive deep into the rituals that shape our approach to maintaining uptime, shedding light on how these practices contribute to a resilient system and empowered team.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Focus by Answering What Problem Are We Solving</title>
+      <link>https://dathan.github.io/blog/posts/focus-by-answering-what-problem-are-we-solving/</link>
+      <pubDate>Wed, 12 Jul 2023 15:13:44 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/focus-by-answering-what-problem-are-we-solving/</guid>
+      <description>&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;&#xA;&lt;p&gt;One of the most effective ways that has helped me focus is answering the question, &amp;ldquo;What problem are we solving?&amp;rdquo;. For this post, the problem that I am solving is how to communicate this idea to readers so they too can focus on what to solve.&lt;/p&gt;&#xA;&lt;h1 id=&#34;when-there-are-100-things-to-fix-what-do-you-fix&#34;&gt;When there are 100 things to fix, what do you fix?&lt;/h1&gt;&#xA;&lt;p&gt;One of the better articles that I read about focusing on a problem &lt;a href=&#34;https://jasonfeifer.beehiiv.com/p/how-to-solve-big-problems&#34;&gt;https://jasonfeifer.beehiiv.com/p/how-to-solve-big-problems&lt;/a&gt; this is a great write-up. One analogy used to convey the thought is how a Physical Therapist will work their way to figure out why the patient is having a problem with their shoulder but in reality, the cause is the lower back. This reminds me of my day-to-day, finding root causes, coordinating a team, setting priorities, and incrementally getting better so the problem&#xA;goes away. How does this all work, it starts by focusing on the team.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Engineering Methods Based on Fictional Characters</title>
+      <link>https://dathan.github.io/blog/posts/engineering-methods-based-on-fictional-characters/</link>
+      <pubDate>Tue, 30 May 2023 15:49:07 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/engineering-methods-based-on-fictional-characters/</guid>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;What are effective strategies for an engineer to communicate with their peers and answer their inquiries efficiently?&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;p&gt;Appeal to your fellow engineers through shared cultural touchstones, like the well-known characters from science fiction that most engineers are familiar with.&lt;/p&gt;&#xA;&lt;h2 id=&#34;case-time-estimation-in-software-engineering&#34;&gt;Case: Time Estimation in Software Engineering&lt;/h2&gt;&#xA;&lt;p&gt;Every software engineer inevitably has to provide an estimate for when a code block, task, or project will be completed. Defining what &amp;ldquo;done&amp;rdquo; means can be complex. Does &amp;ldquo;done&amp;rdquo; mean when the software engineer gets it to work once? Is it when the solution has undergone thorough testing as per the team&amp;rsquo;s established processes? Is it when the code is deployed, activated, or when a customer runs the code without encountering any issues?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Postmortem of a 2005 Flickr Outage Modernized for Today</title>
+      <link>https://dathan.github.io/blog/posts/postmortem-of-a-2005-flickr-outage-modernized-for-today/</link>
+      <pubDate>Wed, 26 Apr 2023 15:38:31 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/postmortem-of-a-2005-flickr-outage-modernized-for-today/</guid>
+      <description>&lt;h1 id=&#34;review-of-flickr-architecture&#34;&gt;Review of Flickr Architecture&lt;/h1&gt;&#xA;&lt;p&gt;Before we delve into the Postmortem let&amp;rsquo;s review the details of the database architecture and Flickr&amp;rsquo;s overall Architecture at that time. Flickr at that time was a PHP shop, running PHP 4, using Smarty as its template Engine in Apache running MODPHP. PHP was everyplace because it&amp;rsquo;s a great engine. I am sure that many hate this statement, that PHP is X or PHP is Y but in reality, it enabled Flickr to jump from a top 100 destination in the USA to a top 5 destination in less than 2 years. During these crucial 2 years, I was the main database architect and wrote a bunch of the PHP code that enabled Flickr to reach this level.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using Playwright With Golang and Python to Grab Js Generated Csv</title>
+      <link>https://dathan.github.io/blog/posts/using-playwright-with-golang-and-python-to-grab-js-generated-csv/</link>
+      <pubDate>Tue, 25 Apr 2023 16:10:17 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/using-playwright-with-golang-and-python-to-grab-js-generated-csv/</guid>
+      <description>&lt;h1 id=&#34;problem&#34;&gt;Problem&lt;/h1&gt;&#xA;&lt;p&gt;I am helping out a friend, to process reports which are behind a paywall and store them in a database to create a churn detector, which will enable his crew to address the churn at hand.&lt;/p&gt;&#xA;&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;&#xA;&lt;p&gt;What is churn? Churn is a term used by companies to denote that a customer no longer wants to use the services they previously paid for. Each company has different metrics to give an indication that a customer is CHURING. The churn for my friend is, customers are not ordering new products which they ordered in the past and the amount they ordered is definitely consumed.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vector Embeddings</title>
+      <link>https://dathan.github.io/blog/posts/vector-embeddings/</link>
+      <pubDate>Tue, 04 Apr 2023 18:39:12 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/vector-embeddings/</guid>
+      <description>&lt;h2 id=&#34;what-are-vector-embeddings&#34;&gt;What are Vector Embeddings&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s go back to the number line. The distance between two points; This is a good example of what Vector Embeddings are, fingerprinting a document into a number in multi-dimensional space. Since a document can be represented as a number (series of numbers), now a relation can be made between two documents. The relation in terms of distance between two vectors (which could be a markdown document for instance), small distances have a high relatedness and large distances suggest a low relatedness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chat with GPT-4 &amp; Save Prompts/Responses to Git</title>
+      <link>https://dathan.github.io/blog/posts/chat-gpt-4-save-prompts-to-git/</link>
+      <pubDate>Wed, 29 Mar 2023 21:42:15 -0700</pubDate>
+      <guid>https://dathan.github.io/blog/posts/chat-gpt-4-save-prompts-to-git/</guid>
+      <description>&lt;h1 id=&#34;saw-an-ask-on-twitter&#34;&gt;Saw an ask on Twitter&lt;/h1&gt;&#xA;&lt;p&gt;A person I follow on Twitter tweeted:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Is there a git/version control for prompts? I hate losing great prompts and I’d love to be able to iterate on them.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;so-i-created-a-quick-command-line-chat-to-gpt-4&#34;&gt;So I created a quick command line chat to GPT-4&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/dathan/go-openai-prompt-git-save&#34;&gt;https://github.com/dathan/go-openai-prompt-git-save&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is a go program, and you need an OPENAI Token and a GitHub User Token in your environment. The program is very simple. From the terminal, have a chat interface to OpenAi, and save the prompts asked, to GitHub, with the content from GPT-4&amp;rsquo;s response.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Maximizing the Power of Language Models: Prompt Engineering</title>
       <link>https://dathan.github.io/blog/posts/maximizing-the-power-of-language-models/</link>
       <pubDate>Wed, 22 Mar 2023 14:34:34 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/maximizing-the-power-of-language-models/</guid>
-      <description>What is Prompt Engineering Let&amp;rsquo;s ask chat gpt:
-Response in text  Prompt engineering is the practice of crafting effective prompts to generate specific outputs from language models like LLMs (Large Language Models). It involves selecting the appropriate vocabulary, formatting, and instructions to help the model understand the desired task and generate the desired output.
-  Effective prompts can improve the performance of LLMs in various natural language processing tasks, such as language translation, sentiment analysis, text summarization, and language generation.</description>
+      <description>&lt;h1 id=&#34;what-is-prompt-engineering&#34;&gt;What is Prompt Engineering&lt;/h1&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s ask chat gpt:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://dathan.github.io/blog/blog/img/what-is-promp-engineering.png&#34; alt=&#34;chatgptresult&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;response-in-text&#34;&gt;Response in text&lt;/h3&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Prompt engineering is the practice of crafting effective prompts to generate specific outputs from language models like LLMs (Large Language Models). It involves selecting the appropriate vocabulary, formatting, and instructions to help the model understand the desired task and generate the desired output.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Effective prompts can improve the performance of LLMs in various natural language processing tasks, such as language translation, sentiment analysis, text summarization, and language generation.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Journal Tasks Log 6</title>
+      <link>https://dathan.github.io/blog/posts/journal-tasks-log-6/</link>
+      <pubDate>Wed, 08 Mar 2023 13:20:33 -0800</pubDate>
+      <guid>https://dathan.github.io/blog/posts/journal-tasks-log-6/</guid>
+      <description>&lt;h1 id=&#34;what-problem-am-i-trying-to-solve&#34;&gt;What problem am I trying to solve&lt;/h1&gt;&#xA;&lt;p&gt;Extract content from a dailyco + deepgram session realtime&lt;/p&gt;&#xA;&lt;h1 id=&#34;what-am-i-trying-to-do-to-solve-the-probkem&#34;&gt;What am I trying to do to solve the probkem&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Display the transcription realtime&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;display the user and what they said&#xA;&lt;ul&gt;&#xA;&lt;li&gt;display the avatar The avatar has a tooltip of the username&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;make the body transparent and lighten up the boxes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Summarize the transcription like a CNN key takeway of a speech.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mastering High-Performance Inital Loads: A Guide to Using Typescript, Next.js, Chakra UI, and Static Props for Seamless Web Development</title>
       <link>https://dathan.github.io/blog/posts/rendering-with-typescript-nextjs-chakra-ui-static-props/</link>
       <pubDate>Wed, 15 Feb 2023 11:02:09 -0800</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/rendering-with-typescript-nextjs-chakra-ui-static-props/</guid>
-      <description>Motivation As an Engineer, I&amp;rsquo;m always on the lookout for new and exciting challenges. So when I was tasked with solving a rendering problem in a Typescript application, I jumped at the opportunity to learn and figure it out.
-In this blog post, I&amp;rsquo;ll be sharing my experience and insights into rendering in a Typescript application within a Vercel environment, using Node 18+, Next.js, strict Eslint guidelines, and Chakra UI for custom components.</description>
+      <description>&lt;h1 id=&#34;motivation&#34;&gt;Motivation&lt;/h1&gt;&#xA;&lt;p&gt;As an Engineer, I&amp;rsquo;m always on the lookout for new and exciting challenges. So when I was tasked with solving a rendering problem in a Typescript application, I jumped at the opportunity to learn and figure it out.&lt;/p&gt;&#xA;&lt;p&gt;In this blog post, I&amp;rsquo;ll be sharing my experience and insights into rendering in a Typescript application within a Vercel environment, using Node 18+, Next.js, strict Eslint guidelines, and Chakra UI for custom components. You&amp;rsquo;ll discover how to effectively render content with static props, taking advantage of the benefits of using Typescript and Chakra UI along the way.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Maximizing Web Based Sharing for Effective Previews Across Platforms</title>
       <link>https://dathan.github.io/blog/posts/maximizing-web-based-sharing-for-effective-previews-across-platforms/</link>
       <pubDate>Thu, 02 Feb 2023 10:02:44 -0800</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/maximizing-web-based-sharing-for-effective-previews-across-platforms/</guid>
-      <description>Motivation I have been writing code to support sharing content from the web on various platforms since 2010. This is my attempt at recording all the things that I do to effectively share effective Previews across LinkedIn, Facebook, iMessage, Twitter, and any other Open Graph compatible system.
-History The Open Graph protocol was first introduced in 2010 by Facebook. It was created as a way for website owners to better control how their pages were represented when shared on Facebook.</description>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;&#xA;&lt;p&gt;I have been writing code to support sharing content from the web on various platforms since 2010. This is my attempt at recording all the things that I do to effectively share effective Previews across LinkedIn, Facebook, iMessage, Twitter, and any other Open Graph compatible system.&lt;/p&gt;&#xA;&lt;h2 id=&#34;history&#34;&gt;History&lt;/h2&gt;&#xA;&lt;p&gt;The Open Graph protocol was first introduced in 2010 by Facebook. It was created as a way for website owners to better control how their pages were represented when shared on Facebook. The protocol provides a standardized set of meta tags that can be added to a webpage&amp;rsquo;s HTML code, allowing the page to specify details such as its title, description, and image. This allows Facebook (and other social media platforms) to display a more visually appealing and information-rich preview of the page when it&amp;rsquo;s shared. The Open Graph protocol has since become a widely adopted standard, used by many websites to enhance the appearance of their pages when shared on social media.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Journal Tasks Log 5</title>
       <link>https://dathan.github.io/blog/posts/journal-tasks-log-5/</link>
       <pubDate>Mon, 19 Dec 2022 14:46:26 -0800</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-5/</guid>
-      <description>Goal Record cloud video and transcribe it
-Tasks  Setup cloud storage endpoint ✅ Build a meeting token endpoint and pass that to the call creation ✅ enable recording - when the session owner joins ✅ add command line applications to the base &amp;ndash; not going to do will use cloud functions  download file wrapper - not needed will create a signed url process file wrapper upload successful process wrapper update database state   run command line from github doc the results and how to reproduce  </description>
+      <description>&lt;h1 id=&#34;goal&#34;&gt;Goal&lt;/h1&gt;&#xA;&lt;p&gt;Record cloud video and transcribe it&lt;/p&gt;&#xA;&lt;h1 id=&#34;tasks&#34;&gt;Tasks&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Setup cloud storage endpoint ✅&lt;/li&gt;&#xA;&lt;li&gt;Build a meeting token endpoint and pass that to the call creation ✅&lt;/li&gt;&#xA;&lt;li&gt;enable recording - when the session owner joins ✅&lt;/li&gt;&#xA;&lt;li&gt;&lt;del&gt;add command line applications to the base&lt;/del&gt; &amp;ndash; not going to do will use cloud functions&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;del&gt;download file wrapper&lt;/del&gt; - not needed will create a signed url&lt;/li&gt;&#xA;&lt;li&gt;process file wrapper&lt;/li&gt;&#xA;&lt;li&gt;upload successful process wrapper&lt;/li&gt;&#xA;&lt;li&gt;update database state&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;run command line from github&lt;/li&gt;&#xA;&lt;li&gt;doc the results and how to reproduce&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Journal Tasks Log 4</title>
       <link>https://dathan.github.io/blog/posts/journal-tasks-log-4/</link>
       <pubDate>Mon, 12 Dec 2022 13:21:48 -0800</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-4/</guid>
-      <description>Integrate vendor package and give results  remove API from the front end ✅ save? room and return the room id that is created ✅ creator makes rooms ✅ participants need to be a part of a session to join a room ✅ need an error layer ✅ verify session against joining a room ✅ fix the buttons to look like a poor man&amp;rsquo;s zoom in terms of layout ✅ Add speaker view to the layout add new button layout using their button scheme add code to add fake cells  </description>
+      <description>&lt;h3 id=&#34;integrate-vendor-package-and-give-results&#34;&gt;Integrate vendor package and give results&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;remove API from the front end ✅&lt;/li&gt;&#xA;&lt;li&gt;save? room and return the room id that is created ✅&lt;/li&gt;&#xA;&lt;li&gt;creator makes rooms  ✅&lt;/li&gt;&#xA;&lt;li&gt;participants need to be a part of a session to join a room  ✅&lt;/li&gt;&#xA;&lt;li&gt;need an error layer  ✅&lt;/li&gt;&#xA;&lt;li&gt;verify session against joining a room   ✅&lt;/li&gt;&#xA;&lt;li&gt;fix the buttons to look like a poor man&amp;rsquo;s zoom in terms of layout  ✅&lt;/li&gt;&#xA;&lt;li&gt;Add speaker view to the layout&lt;/li&gt;&#xA;&lt;li&gt;add new button layout using their button scheme&lt;/li&gt;&#xA;&lt;li&gt;add code to add fake cells&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Hyper Delivery to Iterate for the Customer</title>
       <link>https://dathan.github.io/blog/posts/hyper-delivery-to-iterate-for-the-customer/</link>
       <pubDate>Tue, 29 Nov 2022 12:06:24 -0400</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/hyper-delivery-to-iterate-for-the-customer/</guid>
-      <description>As software engineers, especially product engineering, one of our core objectives is to deliver software solutions to customers quickly, while still maintaining the quality of the product. It is not enough to simply produce a product and ship it out - we need to ensure that the product fits the customer’s needs, and can evolve to meet the customer’s changing demands. To achieve this, we need to establish a set of software delivery practices that prioritize speed and iteration to find product market fit.</description>
+      <description>&lt;p&gt;As software engineers, especially product engineering, one of our core objectives is to deliver software solutions to customers quickly, while still maintaining the quality of the product. It is not enough to simply produce a product and ship it out - we need to ensure that the product fits the customer’s needs, and can evolve to meet the customer’s changing demands. To achieve this, we need to establish a set of software delivery practices that prioritize speed and iteration to find product market fit.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Openai Fine Tuning Notes</title>
       <link>https://dathan.github.io/blog/posts/openai-fine-tuning-notes/</link>
       <pubDate>Mon, 21 Nov 2022 10:06:01 -0400</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/openai-fine-tuning-notes/</guid>
-      <description>OpenAI fine-tuning with a notebook in VSCode AI is the future. Co-pilot is the future. Building a finetuned layer for GPT-X will enable products to produce results faster, with less upfront effort for a fraction of the cost.
-Setting up a training set Let&amp;rsquo;s assume for this post, is based on some structured data. That structured data has been tagged by a human, and there is a lot of it. Roughly 3 MB of data.</description>
+      <description>&lt;h2 id=&#34;openai-fine-tuning-with-a-notebook-in-vscode&#34;&gt;OpenAI fine-tuning with a notebook in VSCode&lt;/h2&gt;&#xA;&lt;p&gt;AI is the future. Co-pilot is the future. Building a finetuned layer for GPT-X will enable products to produce results faster, with less upfront effort for a fraction of the cost.&lt;/p&gt;&#xA;&lt;h3 id=&#34;setting-up-a-training-set&#34;&gt;Setting up a training set&lt;/h3&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s assume for this post, is based on some structured data. That structured data has been tagged by a human, and there is a lot of it. Roughly 3 MB of data.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Journal Tasks Log 3</title>
       <link>https://dathan.github.io/blog/posts/journal-tasks-log-3/</link>
       <pubDate>Fri, 11 Nov 2022 10:11:12 -0400</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-3/</guid>
-      <description>Scope Learn how to fine tune a model
-Tasks  Go through an openai tutorial Take companies data and train a model Run through test cases Learn how to enable or disable finetuning to show improvements Learn how to fine tune a model Publish details via a post  </description>
+      <description>&lt;h1 id=&#34;scope&#34;&gt;Scope&lt;/h1&gt;&#xA;&lt;p&gt;Learn how to fine tune a model&lt;/p&gt;&#xA;&lt;h1 id=&#34;tasks&#34;&gt;Tasks&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Go through an openai tutorial&lt;/li&gt;&#xA;&lt;li&gt;Take companies data and train a model&lt;/li&gt;&#xA;&lt;li&gt;Run through test cases&lt;/li&gt;&#xA;&lt;li&gt;Learn how to enable or disable finetuning to show improvements&#xA;Learn how to fine tune a model&lt;/li&gt;&#xA;&lt;li&gt;Publish details via a post&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Notes About Gke Ingress Service Timeouts</title>
       <link>https://dathan.github.io/blog/posts/notes-about-gke-ingress-service-timeouts/</link>
       <pubDate>Wed, 02 Nov 2022 10:07:11 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/notes-about-gke-ingress-service-timeouts/</guid>
-      <description>Problem GKE for all backend services has a default timeout of 30 seconds for a response from the backend or the service. If the request takes more than 30 seconds a 502 Bad Gateway occurs and the message
-Error: Server Error The server encountered a temporary error and could not complete your request. Please try again in 30 seconds.
-Context The problem is summarized as timeouts that need to be configured for the load balancer, but how do you do that?</description>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;GKE for all backend services has a default timeout of 30 seconds for a response from the backend or the service. If the request takes more than 30 seconds a 502 Bad Gateway occurs and the message&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;Error: Server Error The server encountered a temporary error and could not complete your request. Please try again in 30 seconds.&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;&#xA;&lt;p&gt;The problem is summarized as timeouts that need to be configured for the load balancer, but how do you do that?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Journal Tasks Log 2</title>
       <link>https://dathan.github.io/blog/posts/journal-tasks-log-2/</link>
       <pubDate>Thu, 27 Oct 2022 13:03:32 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-2/</guid>
-      <description>Scope Create an API endpoint using an unfriendly provider.
-Tasks  Use a headless browser to log in with google oAuth ✅ Pass the Text to summerize to application ✅ Grab response from unfriendly provider and structure the response into what we need for return. ✅ Create an API interface to enable this.  First Steps  Lets try to get the existing app to push text Then change the existing app to take text as an input Make sure to grab the response.</description>
+      <description>&lt;h1 id=&#34;scope&#34;&gt;Scope&lt;/h1&gt;&#xA;&lt;p&gt;Create an API endpoint using an unfriendly provider.&lt;/p&gt;&#xA;&lt;h1 id=&#34;tasks&#34;&gt;Tasks&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Use a headless browser to log in with google oAuth ✅&lt;/li&gt;&#xA;&lt;li&gt;Pass the Text to summerize to application ✅&lt;/li&gt;&#xA;&lt;li&gt;Grab response from unfriendly provider and structure the response into what we need for return. ✅&lt;/li&gt;&#xA;&lt;li&gt;Create an API interface to enable this.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;first-steps&#34;&gt;First Steps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Lets try to get the existing app to push text&lt;/li&gt;&#xA;&lt;li&gt;Then change the existing app to take text as an input&lt;/li&gt;&#xA;&lt;li&gt;Make sure to grab the response.&lt;/li&gt;&#xA;&lt;li&gt;Structure the reponse in JSON&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;final-steps&#34;&gt;Final Steps&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create a NEST API interface for this application logic&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;some-notes&#34;&gt;Some notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;With this method of focus in 1.5 hours I&amp;rsquo;ve finished 90% of my tasks here. I started at 1:03:32 pm and now it is 2:27 pm&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>Journal Tasks Log 1</title>
       <link>https://dathan.github.io/blog/posts/journal-tasks-log-1/</link>
       <pubDate>Fri, 21 Oct 2022 08:01:39 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/journal-tasks-log-1/</guid>
-      <description>Why My quest is to become better continuously as a human, parent, husband, man, engineer, and person. Better does not mean perfect but know that there is growth and that you never truly stop learning. The current me is good enough, I just want to do things better instead of thinking I am doing them better and that requires tracking and measurement. This is my log of things needed to organize my thoughts and be more self-disciplined.</description>
+      <description>&lt;h1 id=&#34;why&#34;&gt;Why&lt;/h1&gt;&#xA;&lt;p&gt;My quest is to become better continuously as a human, parent, husband, man, engineer, and person. Better does not mean perfect but know that there is growth and that you never truly stop learning. The current me is good enough, I just want to do things better instead of thinking I am doing them better and that requires tracking and measurement. This is my log of things needed to organize my thoughts and be more self-disciplined.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Gcp Cloudsql Postgresql</title>
       <link>https://dathan.github.io/blog/posts/gcp-cloudsql-postgresql/</link>
       <pubDate>Wed, 12 Oct 2022 14:52:53 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/gcp-cloudsql-postgresql/</guid>
-      <description>Google GCP CloudSQL PostgreSQL Administration I like to configure most of my infrastructure in Hashicorp terraform. The terraform was not developer friendly in my experience because it had a lot of prerequisites for defining the server config, instead of picking a class that just seems right. Building custom things allows for variance. Thus I built and am administering the CloudSQL artifacts through the desktop cloud SQL interface. So far so good.</description>
+      <description>&lt;h2 id=&#34;google-gcp-cloudsql-postgresql-administration&#34;&gt;Google GCP CloudSQL PostgreSQL Administration&lt;/h2&gt;&#xA;&lt;p&gt;I like to configure most of my infrastructure in Hashicorp terraform. The terraform was not developer friendly in my experience because it had a lot of prerequisites for defining the server config, instead of picking a class that just seems right. Building custom things allows for variance. Thus I built and am administering the CloudSQL artifacts through the desktop cloud SQL interface. So far so good.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Understanding Jsonb Postgres</title>
       <link>https://dathan.github.io/blog/posts/understanding-jsonb-postgres/</link>
       <pubDate>Tue, 21 Jun 2022 18:17:27 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/understanding-jsonb-postgres/</guid>
-      <description>I am running across how to debug data in PostgreSQL, a platform I am not familiar with. Specifically using JSONB_SET. JSONB_SET documentation is the following
-jsonb_set ( target jsonb, path text[], new_value jsonb [, create_if_missing boolean ] ) → jsonb
- Returns target with the item designated by path replaced by new_value, or with new_value added if create_if_missing is true (which is the default) and the item designated by path does not exist.</description>
+      <description>&lt;p&gt;I am running across how to debug data in PostgreSQL, a platform I am not familiar with. Specifically using &lt;a href=&#34;https://www.postgresql.org/docs/13/functions-json.html&#34;&gt;JSONB_SET&lt;/a&gt;. JSONB_SET documentation is the following&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;jsonb_set ( target jsonb, path text[], new_value jsonb [, create_if_missing boolean ] ) → jsonb&lt;/em&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&#xA;Returns target with the item designated by path replaced by new_value, or with new_value added if create_if_missing is true (which is the default) and the item designated by path does not exist. All earlier steps in the path must exist, or the target is returned unchanged. As with the path oriented operators, negative integers that appear in the path count from the end of JSON arrays. If the last path step is an array index that is out of range, and create_if_missing is true, the new value is added at the beginning of the array if the index is negative, or at the end of the array if it is positive.&#xA;&#xA;jsonb_set(&amp;#39;[{&amp;#34;f1&amp;#34;:1,&amp;#34;f2&amp;#34;:null},2,null,3]&amp;#39;, &amp;#39;{0,f1}&amp;#39;, &amp;#39;[2,3,4]&amp;#39;, false) → [{&amp;#34;f1&amp;#34;: [2, 3, 4], &amp;#34;f2&amp;#34;: null}, 2, null, 3]&#xA;&#xA;jsonb_set(&amp;#39;[{&amp;#34;f1&amp;#34;:1,&amp;#34;f2&amp;#34;:null},2]&amp;#39;, &amp;#39;{0,f3}&amp;#39;, &amp;#39;[2,3,4]&amp;#39;) → [{&amp;#34;f1&amp;#34;: 1, &amp;#34;f2&amp;#34;: null, &amp;#34;f3&amp;#34;: [2, 3, 4]}, 2]&#xA;&lt;/code&gt;&lt;/pr</description>
     </item>
-    
     <item>
       <title>Solidity Payable Ownership Contracts</title>
       <link>https://dathan.github.io/blog/posts/solidity-payable-ownership-contracts/</link>
       <pubDate>Mon, 17 Jan 2022 09:21:56 -0800</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/solidity-payable-ownership-contracts/</guid>
-      <description>Building foreverawards.com, I have built a basic minter and it works well enough to move to the next level, charging for the service to mint an award that the wallerholder sends to their teammate.
-Contracts When ever talking about charging, transfering, or components of, we are talking about Contracts, which is on v0.8 at the moment of writing this post in the soliditylang documentation site.
-Visibility and Getters external, can be used in transactions from other contracts.</description>
+      <description>&lt;p&gt;Building foreverawards.com, I have built a basic minter and it works well enough to move to the next level, charging for the service to mint an award that the wallerholder sends to their teammate.&lt;/p&gt;&#xA;&lt;h2 id=&#34;contracts&#34;&gt;Contracts&lt;/h2&gt;&#xA;&lt;p&gt;When ever talking about charging, transfering, or components of, we are talking about &lt;a href=&#34;https://docs.soliditylang.org/en/v0.5.10/contracts.html&#34;&gt;Contracts&lt;/a&gt;, which is on v0.8 at the moment of writing this post in the soliditylang documentation site.&lt;/p&gt;&#xA;&lt;h3 id=&#34;visibility-and-getters&#34;&gt;Visibility and Getters&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;external&lt;/code&gt;, can be used in transactions from other contracts. &lt;code&gt;public&lt;/code&gt; are part of the contract interface and can be called internally or via &lt;code&gt;messages&lt;/code&gt;. &lt;code&gt;internal&lt;/code&gt;, default visibility for state variables and can only be called within the contract without using this. &lt;code&gt;private&lt;/code&gt; state is held in the contract only and cannot be derived - this prevents other contracts from reading state.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Automatic Cert Rotation for Gke</title>
       <link>https://dathan.github.io/blog/posts/automatic-cert-rotation-gke/</link>
       <pubDate>Wed, 29 Dec 2021 09:17:19 -0800</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/automatic-cert-rotation-gke/</guid>
-      <description>Why? My config setup is the following, a free-ish version of GKE autopilot, and a load balancer is my ingress. I want the load balancer to terminate TLS.
-How Doing some web surfing I found this blog post and it&amp;rsquo;s literally
-git clone https://github.com/GoogleCloudPlatform/gke-managed-certs cd gke-managed-certs kubectl apply -f managedcertificates-crd.yaml kubectl apply -f managed-certificates-controller.yaml then kubectl annotate ingress [your-ingress-name] networking.gke.io/managed-certificates=mydomain-certificate UPDATE GKE autopilot changes As of May 2021 GKE removed 3rd party admission webhooks, now you will need to use https://cloud.</description>
+      <description>&lt;h1 id=&#34;why&#34;&gt;Why?&lt;/h1&gt;&#xA;&lt;p&gt;My config setup is the following, a free-ish version of GKE autopilot, and a load balancer is my ingress. I want the load balancer to terminate TLS.&lt;/p&gt;&#xA;&lt;h1 id=&#34;how&#34;&gt;How&lt;/h1&gt;&#xA;&lt;p&gt;Doing some web surfing I found this &lt;a href=&#34;https://johnclarke73.medium.com/tls-configuration-in-gke-the-really-simple-way-5af7abb0e8e1&#34;&gt;blog post&lt;/a&gt; and it&amp;rsquo;s literally&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/GoogleCloudPlatform/gke-managed-certs&#xA;cd gke-managed-certs&#xA;kubectl apply -f managedcertificates-crd.yaml&#xA;kubectl apply -f managed-certificates-controller.yaml&#xA;&#xA;then&#xA;&#xA;kubectl annotate ingress [your-ingress-name] &#xA;networking.gke.io/managed-certificates=mydomain-certificate&#xA;&lt;/code&gt;&lt;/pr</description>
     </item>
-    
     <item>
       <title>Launching Gke Autopilot</title>
       <link>https://dathan.github.io/blog/posts/launching-gke-autopilot/</link>
       <pubDate>Mon, 27 Dec 2021 12:33:06 -0800</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/launching-gke-autopilot/</guid>
-      <description>I am going to launch foreveraward.com on Kubernetes because why not? I need something to manage the foreveraward container and I am good with Kubernetes.
-The following checklist is going to be needed.
- Cluster GKE (1st time building) Helm3 compatible Ingress controller to support the ingress to the react app  Launching GKE cluster Creating a cluster Using gcloud the command-line tool for Google cloud, let&amp;rsquo;s create a cluster with redundancy in us-west-1</description>
+      <description>&lt;p&gt;I am going to launch foreveraward.com on Kubernetes because why not? I need something to manage the foreveraward container and I am good with Kubernetes.&lt;/p&gt;&#xA;&lt;p&gt;The following checklist is going to be needed.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cluster GKE (1st time building)&lt;/li&gt;&#xA;&lt;li&gt;Helm3 compatible&lt;/li&gt;&#xA;&lt;li&gt;Ingress controller to support the ingress to the react app&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;launching-gke-cluster&#34;&gt;Launching GKE cluster&lt;/h2&gt;&#xA;&lt;h3 id=&#34;creating-a-cluster&#34;&gt;Creating a cluster&lt;/h3&gt;&#xA;&lt;p&gt;Using gcloud the command-line tool for Google cloud, let&amp;rsquo;s create a cluster with redundancy in us-west-1&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Learning React</title>
       <link>https://dathan.github.io/blog/posts/learning-react/</link>
       <pubDate>Fri, 26 Nov 2021 14:07:37 -0400</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/learning-react/</guid>
-      <description>I am attempting to build a dApp. The problem is I do not know modern javascript, nor solidity. I am learning to react as I build the product to ensure that I can hit my overall goal of building foreveraward.com
-Import curly braces This question is asked on StackOverflow with a great answer
-Specifically, if I have a statement with the following:
-import { A } from &#39;./A&#39; This is a named import called A and only works if there is a named export called A</description>
+      <description>&lt;p&gt;I am attempting to build a dApp. The problem is I do not know modern javascript, nor solidity. I am learning to react as I build the product to ensure that I can hit my overall goal of building foreveraward.com&lt;/p&gt;&#xA;&lt;h3 id=&#34;import-curly-braces&#34;&gt;Import curly braces&lt;/h3&gt;&#xA;&lt;p&gt;This question is asked on StackOverflow with a &lt;a href=&#34;https://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import&#34;&gt;great answer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Specifically, if I have a statement with the following:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import { A } from &amp;#39;./A&amp;#39;&#xA;&lt;/code&gt;&lt;/pr</description>
     </item>
-    
     <item>
       <title>Incident Management Process</title>
       <link>https://dathan.github.io/blog/posts/incident_management_process/</link>
       <pubDate>Tue, 26 Oct 2021 18:07:05 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/incident_management_process/</guid>
-      <description>Goal Define a runbook of sorts of how to run a common incident response process to ensure that we are working on the right thing, keeping all stakeholders in the loop, assigning focus roles, and getting to the root cause of the incident or at least mitigating the problem.
-What is a P1 incident An incident is when there is a customer visible outage that interrupts the behavior or functionality of the platform.</description>
+      <description>&lt;h1 id=&#34;incident-response-runbook&#34;&gt;Incident Response Runbook&lt;/h1&gt;&#xA;&lt;p&gt;This guide is meant to outline the process for running a common incident response. It ensures that we are working on the right problem, keeping all stakeholders informed, assigning focus roles, and discovering the root cause or at least mitigating the issue.&lt;/p&gt;&#xA;&lt;h2 id=&#34;incident-priorities&#34;&gt;Incident Priorities&lt;/h2&gt;&#xA;&lt;h3 id=&#34;p0-critical-incident&#34;&gt;P0 (Critical Incident)&lt;/h3&gt;&#xA;&lt;p&gt;A P0 incident is a complete outage or a severe degradation that affects all customers and requires immediate attention.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>NFT IDEA to Customers with a Product built-in</title>
       <link>https://dathan.github.io/blog/posts/nft-idea-project/</link>
       <pubDate>Tue, 19 Oct 2021 11:58:09 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/nft-idea-project/</guid>
-      <description>Problem An award given should be proveable even if that physical representation of the award was lost, yet if the physical object is lost did the award every really exist.
-Solution NFT Having a way to represent ownership to digital content on the web is a very powerful feature. The decentralized nature of the blockchain or what I like to call very slow peer-to-peer databases gives that implicit trust that a smart contract was minted and cannot be changed, thus can represent ownership.</description>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;An award given should be proveable even if that physical representation of the award was lost, yet if the physical object is lost did the award every really exist.&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution-nft&#34;&gt;Solution NFT&lt;/h2&gt;&#xA;&lt;p&gt;Having a way to represent ownership to digital content on the web is a very powerful feature. The decentralized nature of the blockchain or what I like to call very slow peer-to-peer databases gives that implicit trust that a smart contract was minted and cannot be changed, thus can represent ownership.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Rituals in DevOps for Teams</title>
-      <link>https://dathan.github.io/blog/posts/rituals_in_dev_ops/</link>
-      <pubDate>Mon, 18 Oct 2021 11:38:59 -0700</pubDate>
-      
-      <guid>https://dathan.github.io/blog/posts/rituals_in_dev_ops/</guid>
-      <description>Every Monday, leadership pass downs happen, then we have a standup, then we talk about the pages of the past week. To aid in this ritual, we have an automated Confluent Page, generated from a cronjob that documents all the PagerDuty&amp;rsquo;s pages. The program reads data over PagerDuty&amp;rsquo;s API and writes to Confluence API running as a cronjob in Kubernetes.
-These actions described since performed at a regular cadence is a ritual.</description>
-    </item>
-    
     <item>
       <title>Tailscale Kubernetes</title>
       <link>https://dathan.github.io/blog/posts/tailscale-kubernetes/</link>
       <pubDate>Wed, 13 Oct 2021 17:33:37 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/tailscale-kubernetes/</guid>
-      <description>Last year I wrote a quick docker image and helm chart to install tailscale into your Kubernetes cluster. My particular use case was reaching devices between multiple colliding networks from the cloud to a physical location someplace around the world. Tailscale is perfect for this use-case, and putting together that project was fun and informative.
-Today I read this post by Maisem Ali and Maya Kaczorowski. A fantastic combination of features and abilities that make reaching services in a Kubernetes cluster easy.</description>
+      <description>&lt;p&gt;Last year I wrote a quick &lt;a href=&#34;https://github.com/dathan/tailscale-docker&#34;&gt;docker image and helm chart&lt;/a&gt; to install tailscale into your Kubernetes cluster. My particular use case was reaching devices between multiple colliding networks from the cloud to a physical location someplace around the world. Tailscale is perfect for this use-case, and putting together that project was fun and informative.&lt;/p&gt;&#xA;&lt;p&gt;Today I read this &lt;a href=&#34;https://tailscale.com/blog/kubecon-21/&#34;&gt;post&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/maisem_ali&#34;&gt;Maisem Ali&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/MayaKaczorowski&#34;&gt;Maya Kaczorowski&lt;/a&gt;. A fantastic combination of features and abilities that make reaching services in a Kubernetes cluster easy. I am looking forward to testing some of the features and possibly adding some options to reach things behind the Kubernetes cluster.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Some Thoughts on Github Hugo</title>
       <link>https://dathan.github.io/blog/posts/some-thoughts-on-github-hugo/</link>
       <pubDate>Tue, 12 Oct 2021 18:11:46 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/some-thoughts-on-github-hugo/</guid>
-      <description>GitHub pages is new for me and I was not aware that the contents of GitHub pages site can be based on branches and path combos. Using the GitHub action and reading the documentation, the action to build is on main. Main is the default branch. The action also executes hugo and publishes the hugo generated site to the root of the gh-pages branch. As a result, a silent step that was needed to automated this blog post.</description>
+      <description>&lt;p&gt;GitHub pages is new for me and I was not aware that the contents of GitHub pages site can be based on branches and path combos. Using the GitHub action and reading the documentation, the action to build is on main. &lt;code&gt;Main&lt;/code&gt; is the default branch. The action also executes hugo and publishes the hugo generated site to the root of the &lt;code&gt;gh-pages&lt;/code&gt; branch. As a result, a silent step that was needed to automated this blog post. Changing the pages setting to set the doc root of this &lt;a href=&#34;https://github.com/dathan/blog&#34;&gt;repo&lt;/a&gt; to the &lt;code&gt;gh-pages&lt;/code&gt; branch.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>I want to write an informative log ...</title>
       <link>https://dathan.github.io/blog/posts/my-first-post/</link>
       <pubDate>Tue, 12 Oct 2021 16:48:51 -0700</pubDate>
-      
       <guid>https://dathan.github.io/blog/posts/my-first-post/</guid>
-      <description>In the past, I ran a blog at mysqldba.blogspot.com, but I started to move in different directions away from just the database layer but focused on truely the entire stack. I am doing much more than MySQL, but I still keep up to date and use it in my personal projects. Since I moved into the entire stack, I basically gave up my focus and to an extent my expertise in mySQL.</description>
+      <description>&lt;p&gt;In the past, I ran a blog at mysqldba.blogspot.com, but I started to move in different directions away from just the database layer but focused on truely the entire stack. I am doing much more than MySQL, but I still keep up to date and use it in my personal projects. Since I moved into the entire stack, I basically gave up my focus and to an extent my expertise in mySQL. Then I gave up blogging. Now I am trying to do it again.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
