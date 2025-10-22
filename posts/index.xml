@@ -9,7 +9,17 @@
       <link>https://dathan.github.io/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 16 Oct 2025 17:01:25 +0000</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 10:00:00 -0700</lastBuildDate><atom:link href="https://dathan.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RAS 2026: A Comparative Analysis of Cloud Providers for AI Workloads</title>
+      <link>https://dathan.github.io/blog/posts/ras-2026-comparative-analysis/</link>
+      <pubDate>Wed, 22 Oct 2025 10:00:00 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/ras-2026-comparative-analysis/</guid>
+      <description>Introduction As artificial intelligence continues to reshape industries, the underlying infrastructure powering these innovations is more critical than ever. For AI workloads, especially large-scale training and inference, the trifecta of Reliability, Availability, and Serviceability (RAS) is paramount. These three pillars determine the robustness, uptime, and maintainability of a system, directly impacting the performance and cost-effectiveness of AI applications.
+In this post, we&amp;rsquo;ll explore the RAS landscape in 2026, comparing two distinct categories of cloud providers: the specialized clouds (Crusoe, Nimbix, CoreWeave) and the hyperscalers (AWS, GCP, Azure).</description>
+    </item>
+    
     <item>
       <title>Debugging Slow Nodes in an InfiniBand Network</title>
       <link>https://dathan.github.io/blog/posts/debugging-slow-nodes-in-an-infiniband-network/</link>
