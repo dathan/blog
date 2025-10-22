@@ -50,6 +50,16 @@ This technique is a game-changer for building self-contained applications. Imagi
     </item>
     
     <item>
+      <title>Mapping Datacenter With Events</title>
+      <link>https://dathan.github.io/blog/posts/mapping-datacenter-with-events/</link>
+      <pubDate>Tue, 03 Sep 2024 19:33:13 -0700</pubDate>
+      
+      <guid>https://dathan.github.io/blog/posts/mapping-datacenter-with-events/</guid>
+      <description>Problem In a datacenter the goal is to understand everything about the datacenter without actually having to be in the datacenter. How is this acheived?
+Engineers view of Hardware Most engineers don&amp;rsquo;t care where the physical placement of servers are, unless they are on-call for hardware issues and are asked to determine why a class of servers are all having errors, such as tempature errors. Knowing how servers are laid out helps with the RCA.</description>
+    </item>
+    
+    <item>
       <title>Harnessing Rituals for Uniterrupted Uptime</title>
       <link>https://dathan.github.io/blog/posts/harnessing-rituals-for-uniterrupted-uptime/</link>
       <pubDate>Tue, 08 Aug 2023 07:19:41 -0700</pubDate>
